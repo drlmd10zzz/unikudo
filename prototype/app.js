@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const APP_VERSION = "20260528-mobile-1";
+const APP_VERSION = "20260528-mobile-2";
 const DATASET_ROOT = new URL("../dataset/", window.location.href);
 const CONFIG_ENDPOINT = "/api/config";
 const SUPABASE_MISSING_MESSAGE =
@@ -509,6 +509,13 @@ function bindNavigation() {
     });
   });
 
+  qs("#mobile-view-select").addEventListener("change", (event) => {
+    const view = event.currentTarget.value;
+    history.replaceState(null, "", `#${view}`);
+    switchView(view);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
   window.addEventListener("hashchange", () => {
     switchView(location.hash.replace("#", "") || "explorer");
   });
@@ -522,6 +529,7 @@ function switchView(view) {
   qsa(".nav-button").forEach((button) => {
     button.classList.toggle("is-active", button.dataset.view === knownView);
   });
+  qs("#mobile-view-select").value = knownView;
 
   const titles = {
     explorer: "School Explorer",
@@ -772,12 +780,12 @@ function renderProfile(school) {
                 .map(
                   (program) => `
                     <tr>
-                      <td>${escapeHtml(labelForTrack(program.application_system))}${program.admission_group ? `<br><span class="source-meta">${escapeHtml(program.admission_group)}</span>` : ""}</td>
-                      <td>
+                      <td data-label="Track">${escapeHtml(labelForTrack(program.application_system))}${program.admission_group ? `<br><span class="source-meta">${escapeHtml(program.admission_group)}</span>` : ""}</td>
+                      <td data-label="Program / 校系">
                         <strong>${escapeHtml(programEnglishName(program))}</strong>
                         <span class="program-zh">${escapeHtml(program.department_name_clean_zh || program.department_name_zh)}</span>
                       </td>
-                      <td>${escapeHtml(program.source_pdf_page)}</td>
+                      <td data-label="Page">${escapeHtml(program.source_pdf_page)}</td>
                     </tr>
                   `,
                 )

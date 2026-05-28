@@ -240,6 +240,10 @@ a {
   gap: 8px;
 }
 
+.mobile-nav-menu {
+  display: none;
+}
+
 .nav-button {
   display: grid;
   min-height: 42px;
@@ -1336,26 +1340,27 @@ textarea:focus {
     display: none;
   }
 
+  .mobile-nav-menu {
+    display: grid;
+    gap: 5px;
+    color: var(--muted);
+    font-size: 0.74rem;
+    font-weight: 820;
+    text-transform: uppercase;
+  }
+
+  .mobile-nav-menu select {
+    min-height: 42px;
+    border-color: var(--green-soft);
+    background: #ffffff;
+    color: var(--green);
+    font-size: 0.95rem;
+    font-weight: 820;
+    text-transform: none;
+  }
+
   .nav-list {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 2px;
-    scroll-snap-type: x proximity;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .nav-list::-webkit-scrollbar {
     display: none;
-  }
-
-  .nav-button {
-    flex: 0 0 auto;
-    min-height: 38px;
-    grid-template-columns: 18px max-content;
-    scroll-snap-align: start;
-    padding: 0 11px;
-    white-space: nowrap;
   }
 
   .top-bar,
@@ -1388,14 +1393,18 @@ textarea:focus {
   }
 
   .stats-grid,
-  .explorer-layout,
   .two-column,
   .admissions-layout,
   .form-row {
     grid-template-columns: 1fr;
   }
 
+  .explorer-layout {
+    grid-template-columns: 1fr;
+  }
+
   .stats-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 8px;
     margin-bottom: 14px;
   }
@@ -1407,6 +1416,10 @@ textarea:focus {
 
   .metric-value {
     font-size: 1.35rem;
+  }
+
+  .metric-label {
+    white-space: nowrap;
   }
 
   .panel {
@@ -1437,6 +1450,18 @@ textarea:focus {
     position: static;
   }
 
+  .filters-panel {
+    order: 1;
+  }
+
+  .profile-panel {
+    order: 2;
+  }
+
+  .school-results {
+    order: 3;
+  }
+
   .profile-panel,
   .admission-card {
     scroll-margin-top: 112px;
@@ -1462,6 +1487,48 @@ textarea:focus {
   .program-table-wrap {
     max-height: 60vh;
     max-height: 60svh;
+    overflow: auto;
+    border: 0;
+  }
+
+  .program-table {
+    display: block;
+    min-width: 0;
+    border-collapse: separate;
+  }
+
+  .program-table thead {
+    display: none;
+  }
+
+  .program-table tbody,
+  .program-table tr,
+  .program-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .program-table tr {
+    margin-bottom: 10px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px;
+    background: #ffffff;
+  }
+
+  .program-table td {
+    border-bottom: 0;
+    padding: 5px 0;
+  }
+
+  .program-table td::before {
+    display: block;
+    margin-bottom: 3px;
+    color: var(--muted);
+    content: attr(data-label);
+    font-size: 0.68rem;
+    font-weight: 820;
+    text-transform: uppercase;
   }
 
   .checklist-output,
@@ -1522,7 +1589,7 @@ textarea:focus {
   }
 
   .metric-label {
-    font-size: 0.68rem;
+    font-size: 0.66rem;
   }
 
   .school-name {
@@ -1531,5 +1598,19 @@ textarea:focus {
 
   .source-details pre {
     font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .metric {
+    padding: 9px 6px;
+  }
+
+  .metric-value {
+    font-size: 0.98rem;
+  }
+
+  .metric-label {
+    font-size: 0.58rem;
   }
 }

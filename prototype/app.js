@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const APP_VERSION = "20260528-mobile-2";
+const APP_VERSION = "20260528-mobile-3";
 const DATASET_ROOT = new URL("../dataset/", window.location.href);
 const CONFIG_ENDPOINT = "/api/config";
 const SUPABASE_MISSING_MESSAGE =

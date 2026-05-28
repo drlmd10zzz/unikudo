@@ -777,7 +777,10 @@ textarea:focus {
 }
 
 .program-table-wrap {
-  overflow: visible;
+  max-height: 520px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   border: 1px solid var(--line);
   border-radius: 8px;
   margin-top: 10px;
@@ -1296,7 +1299,8 @@ textarea:focus {
   }
 
   .program-table-wrap {
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .program-table {
@@ -1528,9 +1532,11 @@ textarea:focus {
   }
 
   .program-table-wrap {
-    max-height: none;
-    overflow: visible;
-    border: 0;
+    max-height: 62vh;
+    max-height: 62svh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid var(--line);
   }
 
   .program-table {

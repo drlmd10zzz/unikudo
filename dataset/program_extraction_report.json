@@ -1,0 +1,51 @@
+{
+  "source_pdf": "/mnt/data/海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+  "source_schools_json": "/mnt/data/schools.json",
+  "total_program_records": 4313,
+  "counts": {
+    "programs_personal_application_standard": 2029,
+    "programs_personal_application_ifp": 46,
+    "programs_joint_distribution_group1": 1262,
+    "programs_joint_distribution_group2": 643,
+    "programs_joint_distribution_group3": 333,
+    "programs_all": 4313
+  },
+  "counts_by_application_system": {
+    "personal_application_standard": 2029,
+    "personal_application_ifp": 46,
+    "joint_distribution": 2238
+  },
+  "counts_by_admission_group": {
+    "第一類組": 1262,
+    "第二類組": 643,
+    "第三類組": 333
+  },
+  "key_industry_program_count": 75,
+  "international_foundation_program_count": 46,
+  "manual_school_fixes": {
+    "60": "馬偕學校財團法人馬偕醫學大學"
+  },
+  "unmatched_row_counts": {
+    "programs_personal_application_standard": 0,
+    "programs_personal_application_ifp": 0,
+    "programs_joint_distribution_group1": 0,
+    "programs_joint_distribution_group2": 0,
+    "programs_joint_distribution_group3": 0
+  },
+  "unmatched_rows_sample": {},
+  "output_files": [
+    "programs_all.csv",
+    "programs_all.json",
+    "programs_joint_distribution_group1.csv",
+    "programs_joint_distribution_group1.json",
+    "programs_joint_distribution_group2.csv",
+    "programs_joint_distribution_group2.json",
+    "programs_joint_distribution_group3.csv",
+    "programs_joint_distribution_group3.json",
+    "programs_personal_application_ifp.csv",
+    "programs_personal_application_ifp.json",
+    "programs_personal_application_standard.csv",
+    "programs_personal_application_standard.json",
+    "schools_enriched_with_program_counts.json"
+  ]
+}

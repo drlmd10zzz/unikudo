@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UniKudo</title>
+    <link rel="stylesheet" href="./styles.css?v=20260528-checklist-save-1" />
+  </head>
+  <body>
+    <section class="auth-gate" id="auth-gate" aria-labelledby="auth-title">
+      <div class="auth-card">
+        <div class="brand-block auth-brand">
+          <div class="brand-mark" aria-hidden="true">
+            <img src="./assets/unikudo-logo.jpg" alt="" />
+          </div>
+          <div>
+            <p class="brand-title">UniKudo</p>
+            <p class="brand-subtitle">Taiwanese Admissions Navigator</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow brand-eyebrow">Private prototype</p>
+          <h1 id="auth-title">Create an account or sign in</h1>
+          <p class="auth-copy">Save your prototype session locally and access the school explorer, must reads, checklist, Q&A, and portal helper.</p>
+        </div>
+
+        <div class="auth-tabs" role="tablist" aria-label="Authentication mode">
+          <button class="auth-tab is-active" id="auth-tab-register" data-auth-mode="register" type="button">Register</button>
+          <button class="auth-tab" id="auth-tab-signin" data-auth-mode="signin" type="button">Sign in</button>
+        </div>
+
+        <form class="auth-form" id="auth-form">
+          <label id="auth-name-field">
+            Full name
+            <input id="auth-name" name="name" type="text" autocomplete="name" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input id="auth-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Password
+            <input id="auth-password" name="password" type="password" autocomplete="current-password" minlength="8" placeholder="At least 8 characters" required />
+          </label>
+          <button class="button primary" id="auth-submit" type="submit">Create account</button>
+          <p class="auth-message" id="auth-message" role="status"></p>
+        </form>
+
+        <p class="auth-disclaimer">Prototype auth stores credentials in this browser only. Use production auth before public launch.</p>
+      </div>
+    </section>
+
+    <div class="app-shell is-auth-hidden" id="app-shell">
+      <aside class="side-nav" aria-label="Primary">
+        <div class="brand-block">
+          <div class="brand-mark" aria-hidden="true">
+            <img src="./assets/unikudo-logo.jpg" alt="" />
+          </div>
+          <div>
+            <p class="brand-title">UniKudo</p>
+            <p class="brand-subtitle">Taiwanese Admissions Navigator</p>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <button class="nav-button is-active" data-view="explorer" type="button">
+            <span aria-hidden="true">🔍</span>
+            Explorer
+          </button>
+          <button class="nav-button" data-view="admissions" type="button">
+            <span aria-hidden="true">‼️</span>
+            Must Reads
+          </button>
+          <button class="nav-button" data-view="checklist" type="button">
+            <span aria-hidden="true">📋</span>
+            Checklist
+          </button>
+          <button class="nav-button" data-view="chat" type="button">
+            <span aria-hidden="true">💬</span>
+            Q&A
+          </button>
+          <button class="nav-button" data-view="portal" type="button">
+            <span aria-hidden="true">🚪</span>
+            Portal Helper
+          </button>
+          <button class="nav-button" data-view="sources" type="button">
+            <span aria-hidden="true">ℹ️</span>
+            Sources
+          </button>
+        </nav>
+
+        <div class="nav-note">
+          <strong>Boundary</strong>
+          <span>Guidance only. Final requirements and submissions stay with official sources.</span>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="top-bar">
+          <div>
+            <p class="eyebrow brand-eyebrow">UniKudo</p>
+            <h1 id="view-title">School Explorer</h1>
+          </div>
+          <div class="top-actions">
+            <button class="button ghost account-button" id="account-button" type="button">My account</button>
+            <button class="button primary" id="sign-out-button" type="button">Sign out</button>
+          </div>
+        </header>
+
+        <section class="account-panel" id="account-panel" aria-label="My account" hidden>
+          <div class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-kicker">Signed in</p>
+                <h2>My account</h2>
+              </div>
+              <button class="icon-button" id="account-close-button" type="button" title="Close account panel">X</button>
+            </div>
+            <div class="detail-grid">
+              <div class="detail-row"><strong>Name</strong><span id="account-name">-</span></div>
+              <div class="detail-row"><strong>Email</strong><span id="account-email">-</span></div>
+              <div class="detail-row"><strong>Account type</strong><span>Local prototype account</span></div>
+            </div>
+            <p class="source-meta">This account exists only in this browser. Production deployment should use server-side authentication.</p>
+          </div>
+        </section>
+
+        <section id="view-explorer" class="view is-visible" aria-labelledby="explorer-heading">
+          <section class="stats-grid" aria-label="Dataset summary">
+            <div class="metric">
+              <span class="metric-value" id="metric-schools">--</span>
+              <span class="metric-label">Schools</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value" id="metric-programs">--</span>
+              <span class="metric-label">Programs</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value" id="metric-cities">--</span>
+              <span class="metric-label">Cities/Counties</span>
+            </div>
+          </section>
+          <div class="workspace-grid explorer-layout">
+            <section class="panel filters-panel" aria-labelledby="explorer-heading">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Directory</p>
+                  <h2 id="explorer-heading">Find schools</h2>
+                </div>
+                <span class="result-count" id="school-count">Loading</span>
+              </div>
+
+              <form class="filter-form" id="school-filter-form">
+                <label>
+                  Search
+                  <input id="search-input" type="search" placeholder="Name, city, tag, program..." autocomplete="off" />
+                </label>
+                <div class="form-row">
+                  <label>
+                    Region
+                    <select id="region-filter">
+                      <option value="">All regions</option>
+                    </select>
+                  </label>
+                  <label>
+                    City/county
+                    <select id="city-filter">
+                      <option value="">All cities</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form-row">
+                  <label>
+                    Category
+                    <select id="category-filter">
+                      <option value="">All categories</option>
+                    </select>
+                  </label>
+                  <label>
+                    Track
+                    <select id="track-filter">
+                      <option value="">All tracks</option>
+                      <option value="personal_application_standard">Personal application</option>
+                      <option value="personal_application_ifp">International foundation</option>
+                      <option value="joint_distribution">Joint distribution</option>
+                    </select>
+                  </label>
+                </div>
+              </form>
+
+              <div class="region-visual" aria-label="Regional distribution">
+                <div class="region-bars" id="region-bars"></div>
+              </div>
+            </section>
+
+            <section class="school-results" aria-live="polite">
+              <div id="school-list" class="school-list"></div>
+            </section>
+
+            <aside class="panel profile-panel" id="school-profile" aria-label="Selected school profile">
+              <div class="empty-state">
+                <h2>Select a school</h2>
+                <p>Profiles show contact details, source pages, and extracted program coverage.</p>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="view-checklist" class="view" aria-labelledby="checklist-heading">
+          <div class="workspace-grid two-column">
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Preparation</p>
+                  <h2 id="checklist-heading">Checklist generator</h2>
+                </div>
+              </div>
+              <form class="stack-form" id="checklist-form">
+                <label>
+                  Target intake year
+                  <select name="targetYear">
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                  </select>
+                </label>
+                <label>
+                  Application path
+                  <select name="applicationPath">
+                    <option value="personal_application">Personal application</option>
+                    <option value="joint_distribution">Joint distribution</option>
+                    <option value="both">Both / still deciding</option>
+                  </select>
+                </label>
+                <label>
+                  Student type
+                  <select name="studentType">
+                    <option value="overseas_chinese">Overseas Chinese student</option>
+                    <option value="international">International student</option>
+                    <option value="unknown">Not sure yet</option>
+                  </select>
+                </label>
+                <label>
+                  Academic evidence
+                  <select name="scoringMethod">
+                    <option value="high_school_grades">High school grades</option>
+                    <option value="sat">SAT / standardized test</option>
+                    <option value="alevel">A-Level</option>
+                    <option value="ibdp">IBDP</option>
+                    <option value="mixed">Mixed / not sure</option>
+                  </select>
+                </label>
+                <label>
+                  Current stage
+                  <select name="currentStage">
+                    <option value="exploring">Exploring schools</option>
+                    <option value="documents">Preparing documents</option>
+                    <option value="uploading">Uploading materials</option>
+                    <option value="submitted">Already submitted</option>
+                    <option value="admitted">Admitted / next steps</option>
+                  </select>
+                </label>
+                <label class="checkbox-line">
+                  <input name="isMedicalTrack" type="checkbox" />
+                  Applying to medicine, dentistry, Chinese medicine, or health-related tracks
+                </label>
+                <button class="button primary" type="submit">Generate checklist</button>
+              </form>
+              <div class="saved-checklists-block">
+                <div class="saved-heading">
+                  <div>
+                    <p class="section-kicker">Account</p>
+                    <h3>Saved checklists</h3>
+                  </div>
+                  <span class="result-count" id="saved-checklist-count">0 saved</span>
+                </div>
+                <div id="saved-checklists" class="saved-list"></div>
+              </div>
+            </section>
+
+            <section class="panel checklist-output" aria-live="polite">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Output</p>
+                  <h2>Application checklist</h2>
+                </div>
+                <div class="header-actions">
+                  <button class="button ghost" id="save-checklist" type="button">Save</button>
+                  <button class="icon-button" id="reset-checklist" type="button" title="Reset checklist">R</button>
+                </div>
+              </div>
+              <div id="checklist-output"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="view-admissions" class="view" aria-labelledby="admissions-heading">
+          <div class="workspace-grid admissions-layout">
+            <aside class="panel admissions-toc" aria-label="Admission information sections">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Official guide</p>
+                  <h2 id="admissions-heading">Must reads</h2>
+                </div>
+              </div>
+              <label>
+                Search guide
+                <input id="admission-search" type="search" placeholder="Eligibility, deadline, visa..." autocomplete="off" />
+              </label>
+              <div id="admission-toc" class="admission-toc-list"></div>
+            </aside>
+
+            <section class="admission-content" aria-live="polite">
+              <div id="admission-overview" class="panel"></div>
+              <div id="admission-content"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="view-chat" class="view" aria-labelledby="chat-heading">
+          <div class="workspace-grid two-column chat-layout">
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Source-aware prototype</p>
+                  <h2 id="chat-heading">Admissions Q&A</h2>
+                </div>
+              </div>
+              <div class="prototype-note">
+                <strong>Prototype note</strong>
+                <p>This Q&A is currently rule-based and uses local datasets only. It is not connected to a production LLM or full RAG pipeline yet, so high-risk answers still need official verification.</p>
+              </div>
+              <div class="prompt-chips" id="prompt-chips">
+                <button type="button" data-prompt="Which universities are in Taipei?">Taipei schools</button>
+                <button type="button" data-prompt="What is joint distribution?">Joint distribution</button>
+                <button type="button" data-prompt="What documents do I need?">Documents</button>
+                <button type="button" data-prompt="Show me technology universities in northern Taiwan.">Technology in north</button>
+              </div>
+              <form class="chat-form" id="chat-form">
+                <textarea id="chat-input" rows="5" placeholder="Ask in English about schools, tracks, documents, or portal wording."></textarea>
+                <button class="button primary" type="submit">Ask</button>
+              </form>
+            </section>
+            <section class="panel chat-panel">
+              <div id="chat-log" class="chat-log" aria-live="polite"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="view-portal" class="view" aria-labelledby="portal-heading">
+          <div class="workspace-grid two-column">
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Chinese text helper</p>
+                  <h2 id="portal-heading">Portal helper</h2>
+                </div>
+              </div>
+              <div class="prototype-note">
+                <strong>Prototype note</strong>
+                <p>This helper currently supports pasted text and glossary-style explanations only. Screenshot OCR, login guidance, and real portal-state detection are not implemented.</p>
+              </div>
+              <form class="stack-form" id="portal-form">
+                <label>
+                  Portal text
+                  <textarea name="portalText" rows="10" placeholder="Paste Chinese portal instructions or field labels here."></textarea>
+                </label>
+                <button class="button primary" type="submit">Explain text</button>
+              </form>
+            </section>
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">English explanation</p>
+                  <h2>What it means</h2>
+                </div>
+              </div>
+              <div id="portal-output" class="portal-output empty-state">
+                <h2>Paste portal text</h2>
+                <p>The helper will translate common admissions terms, split fields, and flag final-submit warnings.</p>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section id="view-sources" class="view" aria-labelledby="sources-heading">
+          <div class="workspace-grid two-column">
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Grounding</p>
+                  <h2 id="sources-heading">Dataset coverage</h2>
+                </div>
+              </div>
+              <div class="source-list" id="source-list"></div>
+            </section>
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">Risk boundary</p>
+                  <h2>Prototype limits</h2>
+                </div>
+              </div>
+              <ul class="plain-list">
+                <li>No autonomous portal login or submission.</li>
+                <li>No invented deadlines or eligibility decisions.</li>
+                <li>No admissions probability prediction.</li>
+                <li>Program rows are extracted from the source PDF and should be verified before final use.</li>
+                <li>English school names are not yet validated across the dataset.</li>
+              </ul>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js?v=20260528-checklist-save-1"></script>
+  </body>
+</html>

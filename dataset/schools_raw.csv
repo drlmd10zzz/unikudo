@@ -1,0 +1,131 @@
+﻿source_id,id,name_zh,phone,address_raw,postal_code,city_or_county,district,region,website,school_category
+1,school_001_國立臺灣大學,國立臺灣大學,886-2-33662007#271,106319 臺北市羅斯福路4 段1 號,106319,臺北市,,north,https://www.ntu.edu.tw/,public;general_or_specialized_university
+2,school_002_國立暨南國際大學,國立暨南國際大學,886-49-2918305,545301 南投縣埔里鎮大學路1 號,545301,南投縣,埔里鎮,central,https://www.ncnu.edu.tw/,public;general_or_specialized_university
+3,school_003_國立臺灣師範大學,國立臺灣師範大學,886-2-7749-1283,106209 臺北市和平東路1 段162 號,106209,臺北市,,north,https://www.ntnu.edu.tw/,public;general_or_specialized_university;education
+4,school_004_國立陽明交通大學,國立陽明交通大學,886-3-5712121#50135,300093 新竹市大學路1001 號(交大校區)； 112304 台北市北投區立農街二段155 號(陽明 校區),300093,新竹市,,north,https://www.nycu.edu.tw,public;general_or_specialized_university
+5,school_005_國立清華大學,國立清華大學,886-3-5712861,300044 新竹市光復路2 段101 號,300044,新竹市,,north,https://www.nthu.edu.tw/,public;general_or_specialized_university
+6,school_006_國立成功大學,國立成功大學,886-6-2757575#50993,701401 臺南市大學路1 號,701401,臺南市,,south,https://web.ncku.edu.tw/index.php?Lang=zh-tw,public;general_or_specialized_university
+7,school_007_國立政治大學,國立政治大學,886-2-29393091# 62887,116011 臺北市文山區指南路二段64 號,116011,臺北市,文山區,north,https://www.nccu.edu.tw/,public;general_or_specialized_university
+8,school_008_國立臺灣海洋大學,國立臺灣海洋大學,886-2-24622192#1068,202301 基隆市中正區北寧路2 號,202301,基隆市,中正區,north,https://www.ntou.edu.tw,public;general_or_specialized_university
+9,school_009_國立臺北大學,國立臺北大學,886-2-86741111#66122,237303 新北市三峽區大學路151 號,237303,新北市,三峽區,north,https://new.ntpu.edu.tw/,public;general_or_specialized_university
+10,school_010_國立中興大學,國立中興大學,886-4-22840216#16,402202 臺中市南區興大路145 號,402202,臺中市,南區,central,https://www.nchu.edu.tw/,public;general_or_specialized_university
+11,school_011_國立中正大學,國立中正大學,886-5-2720411#11101,621301 嘉義縣民雄鄉大學路168 號,621301,嘉義縣,民雄鄉,south,https://www.ccu.edu.tw,public;general_or_specialized_university
+12,school_012_國立中央大學,國立中央大學,886-3-4227151#57146,320317 桃園市中壢區中大路300 號,320317,桃園市,中壢區,north,https://www.ncu.edu.tw,public;general_or_specialized_university
+13,school_013_國立中山大學,國立中山大學,886-7-5252000#2148,804201 高雄市鼓山區蓮海路70 號,804201,高雄市,鼓山區,south,http://www.nsysu.edu.tw,public;general_or_specialized_university
+14,school_014_國立東華大學,國立東華大學,886-3-8905114,974301 花蓮縣壽豐鄉大學路二段一號,974301,花蓮縣,壽豐鄉,east,http://www.ndhu.edu.tw,public;general_or_specialized_university
+15,school_015_國立嘉義大學,國立嘉義大學,886-5-2717296,600355 嘉義市學府路300 號,600355,嘉義市,,south,https://www.ncyu.edu.tw/,public;general_or_specialized_university
+16,school_016_國立彰化師範大學,國立彰化師範大學,886-4-7232105#5116,500207 彰化縣彰化市進德路1 號,500207,彰化縣彰化市,,,http://www.ncue.edu.tw,public;general_or_specialized_university;education
+17,school_017_國立高雄師範大學,國立高雄師範大學,886-7-7172930#3959,802311 高雄市苓雅區和平一路116 號,802311,高雄市,苓雅區,south,http://www.nknu.edu.tw,public;general_or_specialized_university;education
+18,school_018_國立金門大學,國立金門大學,886-82-313734,892009 金門縣金寧鄉大學路1 號,892009,金門縣,金寧鄉,islands,https://www.nqu.edu.tw/,public;general_or_specialized_university
+19,school_019_國立宜蘭大學,國立宜蘭大學,886-3-9357400#7073,260007 宜蘭市神農路1 段1 號,260007,宜蘭市,,,http://www.niu.edu.tw,public;general_or_specialized_university
+20,school_020_臺北市立大學,臺北市立大學,886-2-28718288#7505(招生); 886-2-23113040#1121(註冊),100234 臺北市中正區愛國西路1 號; 111036 臺北市士林區忠誠路2 段101 號,100234,臺北市,中正區,north,http://www.utaipei.edu.tw/,public;general_or_specialized_university
+21,school_021_國立臺中教育大學,國立臺中教育大學,886-4-22183682,403454 臺中市西區民生路140 號,403454,臺中市,西區,central,https://www.ntcu.edu.tw/,public;general_or_specialized_university;education
+22,school_022_國立屏東大學,國立屏東大學,886-8-766-3800#17009,900391 屏東縣屏東市民生路4-18 號,900391,屏東縣屏東市,,,https://www.nptu.edu.tw/,public;general_or_specialized_university
+23,school_023_國立臺東大學,國立臺東大學,886-89-517873,950309 臺東縣臺東市大學路二段369 號,950309,臺東縣臺東市,,,https://www.nttu.edu.tw,public;general_or_specialized_university
+24,school_024_國立臺南大學,國立臺南大學,886-6-2133111#242,700301 臺南市中西區樹林街2 段33 號,700301,臺南市,中西區,south,https://www.nutn.edu.tw/,public;general_or_specialized_university
+25,school_025_國立高雄大學,國立高雄大學,886-7-5919000#8242,811726 高雄市楠梓區高雄大學路700 號,811726,高雄市,楠梓區,south,https://www.nuk.edu.tw/,public;general_or_specialized_university
+26,school_026_國立臺灣藝術大學,國立臺灣藝術大學,886-2-22722181#1151,220307 新北市板橋區大觀路1 段59 號,220307,新北市,板橋區,north,https://www.ntua.edu.tw/,public;general_or_specialized_university;arts
+27,school_027_國立臺北教育大學,國立臺北教育大學,886-2-66396688#82015,106320 臺北市大安區和平東路2 段134 號,106320,臺北市,大安區,north,https://www.ntue.edu.tw,public;general_or_specialized_university;education
+28,school_028_國立臺北藝術大學,國立臺北藝術大學,886-2-28961000#1255,112301 臺北市北投區學園路1 號,112301,臺北市,北投區,north,https://w3.tnua.edu.tw/,public;general_or_specialized_university;arts
+29,school_029_國立臺灣體育運動大學,國立臺灣體育運動大學,886-4-22213108#2151,404401 臺中市北區雙十路一段16 號,404401,臺中市,北區,central,https://www.ntus.edu.tw,public;general_or_specialized_university;sports
+30,school_030_國立體育大學,國立體育大學,886-3-3283201#1592,333325 桃園市龜山區文化一路250 號,333325,桃園市,龜山區,north,http://www.ntsu.edu.tw,public;general_or_specialized_university;sports
+31,school_031_國立臺南藝術大學,國立臺南藝術大學,886-6-6931212,720005 臺南市官田區大崎里66 號,720005,臺南市,官田區,south,https://www.tnnua.edu.tw,public;general_or_specialized_university;arts
+32,school_032_國防醫學大學,國防醫學大學,886-2-87923100#18085,114201 臺北市內湖區民權東路六段161 號,114201,臺北市,內湖區,north,https://www.ndmctsgh.edu.tw/,private_or_other;general_or_specialized_university;medical_health
+33,school_033_國立聯合大學,國立聯合大學,886-37-381131,360001 苗栗市恭敬里聯大一號,360001,苗栗市,,,http://www.nuu.edu.tw,public;general_or_specialized_university
+34,school_034_中國醫藥大學,中國醫藥大學,886-4-22053366#1122,406040 台中市北屯區經貿路一段100 號,406040,台中市,北屯區,central,https://cmucia.cmu.edu.tw/admission.html,private_or_other;general_or_specialized_university;medical_health
+35,school_035_淡江大學,淡江大學,886-2-26215656 #3567,251301 新北市淡水區英專路151 號,251301,新北市,淡水區,north,http://www.tku.edu.tw,private_or_other;general_or_specialized_university
+36,school_036_中原大學,中原大學,886-3-2651718,320314 桃園市中壢區中北路200 號,320314,桃園市,中壢區,north,http://www.cycu.edu.tw,private_or_other;general_or_specialized_university
+37,school_037_天主教輔仁大學,天主教輔仁大學,886-2-29053074,242062 新北市新莊區中正路510 號,242062,新北市,新莊區,north,https://www.fju.edu.tw/,private_or_other;general_or_specialized_university
+38,school_038_東海大學,東海大學,886-4-23598900,407224 台中市西屯區臺灣大道四段1727 號,407224,台中市,西屯區,central,https://www.thu.edu.tw,private_or_other;general_or_specialized_university
+39,school_039_中國文化大學,中國文化大學,886-2-28610511 #11312,111396 台北市士林區華岡路55 號,111396,台北市,士林區,north,http://www.pccu.edu.tw,private_or_other;general_or_specialized_university
+40,school_040_逢甲大學,逢甲大學,886-4-24517250#2184,407102 台中市西屯區文華路100 號,407102,台中市,西屯區,central,https://www.fcu.edu.tw/,private_or_other;general_or_specialized_university
+41,school_041_東吳大學,東吳大學,886-2-28819471#6068,111002 台北市士林區臨溪路70 號,111002,台北市,士林區,north,http://www.scu.edu.tw,private_or_other;general_or_specialized_university
+42,school_042_元智大學,元智大學,886-3-4638800#3287,320315 桃園市中壢區遠東路135 號,320315,桃園市,中壢區,north,https://www.yzu.edu.tw/,private_or_other;general_or_specialized_university
+43,school_043_長庚大學,長庚大學,886-3-2118800#3536,333323 桃園市龜山區文化一路259 號,333323,桃園市,龜山區,north,http://www.cgu.edu.tw,private_or_other;general_or_specialized_university
+44,school_044_世新大學,世新大學,886-2-22368225#82042,116002 臺北市文山區木柵路一段17 巷1 號,116002,臺北市,文山區,north,https://www.shu.edu.tw/,private_or_other;general_or_specialized_university
+45,school_045_中山醫學大學,中山醫學大學,886-4-36098795,402367 臺中市南區建國北路1 段110 號,402367,臺中市,南區,central,http://www.csmu.edu.tw,private_or_other;general_or_specialized_university;medical_health
+46,school_046_實踐大學,實踐大學,886-2-25381111#2215,104336 台北市中山區大直街70 號,104336,台北市,中山區,north,https://www.usc.edu.tw,private_or_other;general_or_specialized_university
+47,school_047_實踐大學高雄,實踐大學(高雄),886-7-6678888#3191,845050 高雄市內門區內南里大學路200 號,845050,高雄市,內門區,south,https://www.kh.usc.edu.tw/,private_or_other;general_or_specialized_university
+48,school_048_義守大學,義守大學,886-7-6577711,840301 高雄市大樹區學城路1 段1 號,840301,高雄市,大樹區,south,https://www.isu.edu.tw,private_or_other;general_or_specialized_university
+49,school_049_臺北醫學大學,臺北醫學大學,886-2-27361661#2144,110301 臺北市信義區吳興街250 號,110301,臺北市,信義區,north,https://www.tmu.edu.tw,private_or_other;general_or_specialized_university;medical_health
+50,school_050_靜宜大學,靜宜大學,886-4-26328001,433303 台中市沙鹿區台灣大道七段200 號,433303,台中市,沙鹿區,central,https://oia.pu.edu.tw/app/home.php,private_or_other;general_or_specialized_university
+51,school_051_長榮大學,長榮大學,886-6-2785123#1737,711301 臺南市歸仁區長大路1 號,711301,臺南市,歸仁區,south,http://www.cjcu.edu.tw,private_or_other;general_or_specialized_university
+52,school_052_真理大學,真理大學,886-2-26212121#7439,251306 新北市淡水區真理街32 號,251306,新北市,淡水區,north,http://www.au.edu.tw,private_or_other;general_or_specialized_university
+53,school_053_開南大學,開南大學,886-3-3412500#6028,338103 桃園市蘆竹區開南路1 號,338103,桃園市,蘆竹區,north,http://www.knu.edu.tw,private_or_other;general_or_specialized_university
+54,school_054_大葉大學,大葉大學,886-4-8511888#1788,515006 彰化縣大村鄉學府路168 號,515006,彰化縣,大村鄉,central,http://www.dyu.edu.tw,private_or_other;general_or_specialized_university
+55,school_055_大同大學,大同大學,886-2-21822928#7521,104327 台北市中山北路三段40 號,104327,台北市,,north,https://www.ttu.edu.tw/,private_or_other;general_or_specialized_university
+56,school_056_華梵大學,華梵大學,886-2-26632102#2233,223011 新北市石碇區華梵路1 號,223011,新北市,石碇區,north,http://www.hfu.edu.tw,private_or_other;general_or_specialized_university
+57,school_057_南華大學,南華大學,886-5-2721001#1711,622301 嘉義縣大林鎮南華路一段55 號,622301,嘉義縣,大林鎮,south,https://www3.nhu.edu.tw/,private_or_other;general_or_specialized_university
+58,school_058_玄奘大學,玄奘大學,886-3-5302255 #2199,300102 新竹市香山區玄奘路48 號,300102,新竹市,香山區,north,http://www.hcu.edu.tw,private_or_other;general_or_specialized_university
+59,school_059_佛光大學,佛光大學,886-3-9871000#12512,262307 宜蘭縣礁溪鄉林美村林尾路160 號,262307,宜蘭縣,礁溪鄉,north,http://www.fgu.edu.tw/,private_or_other;general_or_specialized_university
+60,school_060_,,馬偕學校財團法人馬偕醫886-2-26360303#1123,252005 新北市三芝區中正路三段46 號,252005,新北市,三芝區,north,https://www.mmu.edu.tw/,private_or_other
+61,school_061_中信金融管理學院,中信金融管理學院,886-6-2873335#2676,709301 台南市安南區台江大道3 段600 號,709301,台南市,安南區,south,http://www.ctbc.edu.tw,private_or_other;general_or_specialized_university;business_management
+62,school_062_銘傳大學臺北,銘傳大學(臺北),886-2-28824564#2247,111005 台北市士林區中山北路五段250 號,111005,台北市,士林區,north,https://web2.mcu.edu.tw/,private_or_other;general_or_specialized_university
+63,school_063_銘傳大學桃園,銘傳大學(桃園),886-2-28824564#2247,111005 台北市士林區中山北路五段250 號,111005,台北市,士林區,north,https://web2.mcu.edu.tw/,private_or_other;general_or_specialized_university
+64,school_064_高雄醫學大學,高雄醫學大學,886-7-3121101#2109,807378 高雄市三民區十全一路100 號,807378,高雄市,三民區,south,https://www.kmu.edu.tw,private_or_other;general_or_specialized_university;medical_health
+65,school_065_亞洲大學,亞洲大學,886-4-23323456# 6275,413305 台中市霧峰區柳豐路500 號,413305,台中市,霧峰區,central,http://www.asia.edu.tw,private_or_other;general_or_specialized_university
+66,school_066_慈濟大學,慈濟大學,886-3-8565301#11025,970374 花蓮縣花蓮市中央路3 段701 號,970374,花蓮縣花蓮市,,,https://www.tcu.edu.tw/,private_or_other;general_or_specialized_university
+67,school_067_康寧大學,康寧大學,886-2-2632-1181#310,114055 臺北市內湖區康寧路三段75 巷137 號 (臺北校區),114055,臺北市,內湖區,north,https://www.ukn.edu.tw/,private_or_other;general_or_specialized_university
+68,school_068_法鼓學校財團法人法鼓文理,法鼓學校財團法人法鼓文理學院,886-2-24980707#5316,208303 新北市金山區西湖里法鼓路700 號,208303,新北市,金山區,north,https://www.dila.edu.tw/,private_or_other;general_or_specialized_university
+69,school_069_臺北基督學院,臺北基督學院,886-2-2809-7661# 2220,251022 新北市淡水區自強路51 號,251022,新北市,淡水區,north,http://www.cct.edu.tw,private_or_other;general_or_specialized_university
+70,school_070_國立高雄科技大學,國立高雄科技大學,886-7-3814526#19022,807618 高雄市三民區建工路415 號,807618,高雄市,三民區,south,http://www.nkust.edu.tw,public;technology
+71,school_071_國立虎尾科技大學,國立虎尾科技大學,886-5-6315107,632301 雲林縣虎尾鎮文化路64 號,632301,雲林縣,虎尾鎮,central,https://www.nfu.edu.tw/zh/,public;technology
+72,school_072_國立屏東科技大學,國立屏東科技大學,886-8-7703202#6023,912301 屏東縣內埔鄉老埤村學府路1 號,912301,屏東縣,內埔鄉,south,https://wp.npust.edu.tw/,public;technology
+73,school_073_國立臺中科技大學,國立臺中科技大學,886-4-22195755,404336 臺中市北區三民路三段129 號,404336,臺中市,北區,central,https://www.nutc.edu.tw/,public;technology
+74,school_074_國立臺北科技大學,國立臺北科技大學,886-2-27712171#6513,106344 台北市忠孝東路三段一號,106344,台北市,,north,https://www.ntut.edu.tw/,public;technology
+75,school_075_國立雲林科技大學,國立雲林科技大學,886-5-5372637,640301 雲林縣斗六市大學路3 段123 號,640301,雲林縣斗六市,,,https://www.yuntech.edu.tw/,public;technology
+76,school_076_國立澎湖科技大學,國立澎湖科技大學,886-6-9264115#1122,880011 澎湖縣馬公市六合路300 號,880011,澎湖縣馬公市,,,https://www.npu.edu.tw,public;technology
+77,school_077_國立臺北護理健康大學,國立臺北護理健康大學,886-2-28227101#2733,112303 台北市北投區明德路365 號,112303,台北市,北投區,north,https://www.ntunhs.edu.tw,public;general_or_specialized_university;medical_health
+78,school_078_國立臺北商業大學,國立臺北商業大學,886-2-23226050,100025 臺北市中正區濟南路一段321 號,100025,臺北市,中正區,north,https://www.ntub.edu.tw,public;general_or_specialized_university;business_management
+79,school_079_國立勤益科技大學,國立勤益科技大學,886-4-23924505#2186,411030 臺中市太平區坪林里中山路二段57 號,411030,臺中市,太平區,central,http://www.ncut.edu.tw,public;technology
+80,school_080_國立高雄餐旅大學,國立高雄餐旅大學,886-7-8060505#12202,812301 高雄市小港區松和路1 號,812301,高雄市,小港區,south,https://www.nkuht.edu.tw,public;general_or_specialized_university;hospitality
+81,school_081_國立臺灣戲曲學院,國立臺灣戲曲學院,886-2-27962666#1222,114023 臺北市內湖區內湖路二段177 號,114023,臺北市,內湖區,north,http://www.tcpa.edu.tw,public;general_or_specialized_university;arts
+82,school_082_國立臺灣科技大學,國立臺灣科技大學,886-2-27301190,106335 台北市大安區基隆路四段43 號,106335,台北市,大安區,north,http://www.ntust.edu.tw,public;technology
+83,school_083_南臺科技大學,南臺科技大學,886-6-2533131#2120-2122,710301 台南市永康區尚頂里南台街1 號,710301,台南市,永康區,south,https://www.stust.edu.tw,private_or_other;technology
+84,school_084_正修科技大學,正修科技大學,886-7-7358800 #6228,833301 高雄市鳥松區澄清路840 號,833301,高雄市,鳥松區,south,https://www.csu.edu.tw/,private_or_other;technology
+85,school_085_朝陽科技大學,朝陽科技大學,886-4-23323000#3130,413310 臺中市霧峰區吉峰東路168 號,413310,臺中市,霧峰區,central,http://www.cyut.edu.tw,private_or_other;technology
+86,school_086_嘉藥學校財團法人嘉南藥理,嘉藥學校財團法人嘉南藥理大學,886-6-2664911#1802,717301 台南市仁德區二仁路一段60 號,717301,台南市,仁德區,south,https://www.cnu.edu.tw,private_or_other;general_or_specialized_university;medical_health
+87,school_087_崑山科技大學,崑山科技大學,886-6-2727175#258,710303 台南市永康區崑大路195 號,710303,台南市,永康區,south,http://www.ksu.edu.tw,private_or_other;technology
+88,school_088_台南家專學校財團法人台南,台南家專學校財團法人台南應用科技大學,886-6-2531094,710302 台南市永康區中正路529 號,710302,台南市,永康區,south,https://www.tut.edu.tw,private_or_other;technology
+89,school_089_城市學校財團法人臺北城市,城市學校財團法人臺北城市科技大學,886-2-28927154#5902,112302 台北市北投區學園路2 號,112302,台北市,北投區,north,http://www.tpcu.edu.tw,private_or_other;technology
+90,school_090_長庚學校財團法人長庚科技,長庚學校財團法人長庚科技大學,886-3-2118999#5356,333324 桃園市龜山區文化一路261 號,333324,桃園市,龜山區,north,http://www.cgust.edu.tw,private_or_other;technology
+91,school_091_弘光科技大學,弘光科技大學,886-4-26318652#6156,433304 台中市沙鹿區台灣大道6 段1018 號,433304,台中市,沙鹿區,central,http://www.hk.edu.tw,private_or_other;technology
+92,school_092_健行科技大學,健行科技大學,886-3-4581196#6230,320312 桃園市中壢區健行路229 號,320312,桃園市,中壢區,north,http://www.uch.edu.tw,private_or_other;technology
+93,school_093_南開科技大學,南開科技大學,886-49-2563489#1596,542021 南投縣草屯鎮中正路568 號,542021,南投縣,草屯鎮,central,http://www.nkut.edu.tw,private_or_other;technology
+94,school_094_亞東學校財團法人亞東科技,亞東學校財團法人亞東科技大學,886-2-77387708,220303 新北市板橋區四川路二段58 號,220303,新北市,板橋區,north,https://www.aeust.edu.tw/,private_or_other;technology
+95,school_095_德育學校財團法人德育護理,德育學校財團法人德育護理健康學院,886-2-24372093#619,203301 基隆市中山區復興路336 號,203301,基隆市,中山區,north,http://www.dyhu.edu.tw,private_or_other;general_or_specialized_university;medical_health
+96,school_096_建國科技大學,建國科技大學,886-4-7111111#1727,500020 彰化縣彰化市介壽北路1 號,500020,彰化縣彰化市,,,http://www.ctu.edu.tw,private_or_other;technology
+97,school_097_僑光科技大學,僑光科技大學,886-4-27016855#1507,407805 台中市西屯區僑光路 100 號,407805,台中市,西屯區,central,http://www.ocu.edu.tw,private_or_other;technology
+98,school_098_景文科技大學,景文科技大學,886-2-82122000#2207,231307 新北市新店區安忠路99 號,231307,新北市,新店區,north,https://www.just.edu.tw,private_or_other;technology
+99,school_099_中國科技大學,中國科技大學,886-3-6991111#1124,116077 台北市文山區興隆路三段56 號,116077,台北市,文山區,north,http://www.cute.edu.tw,private_or_other;technology
+100,school_100_醒吾科技大學,醒吾科技大學,886-2-26015310#1201,244012 新北市林口區粉寮路一段101 號,244012,新北市,林口區,north,https://www.hwu.edu.tw/,private_or_other;technology
+101,school_101_萬能學校財團法人萬能科技,萬能學校財團法人萬能科技大學,886-3-4515811,320313 桃園市中壢區萬能路1 號,320313,桃園市,中壢區,north,http://www.vnu.edu.tw,private_or_other;technology
+102,school_102_樹德科技大學,樹德科技大學,886-7-6158000#1604,824005 高雄市燕巢區橫山路59 號,824005,高雄市,燕巢區,south,https://www.stu.edu.tw,private_or_other;technology
+103,school_103_中華學校財團法人中華科技,中華學校財團法人中華科技大學,886-2-27821862#203,115311 台北市南港區研究院路三段245 號,115311,台北市,南港區,north,http://www.cust.edu.tw,private_or_other;technology
+104,school_104_德明財經科技大學,德明財經科技大學,886-2-26585801#3111,114011 台北市內湖區環山路一段56 號,114011,台北市,內湖區,north,https://www.takming.edu.tw/schtm/default.asp,private_or_other;technology
+105,school_105_大華學校財團法人敏實科技,大華學校財團法人敏實科技大學,886-3-592-7700#2602,307304 新竹縣芎林鄉大華路1 號,307304,新竹縣,芎林鄉,north,http://www.mitust.edu.tw,private_or_other;technology
+106,school_106_黎明技術學院,黎明技術學院,886-2-29095785,243083 新北市泰山區黎明里泰林路3 段22 號,243083,新北市,泰山區,north,https://www.lit.edu.tw/,private_or_other;technology
+107,school_107_明新科技大學,明新科技大學,886-3-5593142#2144,304001 新竹縣新豐鄉新興路1 號,304001,新竹縣,新豐鄉,north,http://www.must.edu.tw,private_or_other;technology
+108,school_108_致理科技大學,致理科技大學,886-2-2257-6167#4178,220305 新北市板橋區文化路1 段313 號,220305,新北市,板橋區,north,http://www.chihlee.edu.tw,private_or_other;technology
+109,school_109_文藻外語大學,文藻外語大學,886-7-3426031#2644,807771 高雄市三民區民族一路900 號,807771,高雄市,三民區,south,http://www.wzu.edu.tw,private_or_other;general_or_specialized_university
+110,school_110_嶺東科技大學,嶺東科技大學,886-4-23892088,408284 台中市南屯區嶺東路1 號,408284,台中市,南屯區,central,http://www.ltu.edu.tw,private_or_other;technology
+111,school_111_龍華科技大學,龍華科技大學,886-2-82093211#2503,333326 桃園市龜山區萬壽路一段300 號,333326,桃園市,龜山區,north,https://www.lhu.edu.tw/,private_or_other;technology
+112,school_112_明志科技大學,明志科技大學,886-2-29089899#2202,243303 新北市泰山區工專路84 號,243303,新北市,泰山區,north,https://www.mcut.edu.tw/,private_or_other;technology
+113,school_113_輔英科技大學,輔英科技大學,886-7-7811151#2402,831301 高雄市大寮區永芳里進學路151 號,831301,高雄市,大寮區,south,https://www.fy.edu.tw/,private_or_other;technology
+114,school_114_中臺科技大學,中臺科技大學,886-4-22391647#8822,406053 台中市北屯區廍子路666 號,406053,台中市,北屯區,central,http://www.ctust.edu.tw,private_or_other;technology
+115,school_115_吳鳳科技大學,吳鳳科技大學,886-5-2267125#21932,621303 嘉義縣民雄鄉建國路二段 117 號,621303,嘉義縣,民雄鄉,south,http://www.wfu.edu.tw,private_or_other;technology
+116,school_116_中華醫事科技大學,中華醫事科技大學,886-6-2672623,717302 台南市仁德區文華一街89 號,717302,台南市,仁德區,south,https://www.hwai.edu.tw/,private_or_other;technology;medical_health
+117,school_117_修平學校財團法人修平科技,修平學校財團法人修平科技大學,886-4-24961100#5013,412406 臺中市大里區工業路11 號,412406,臺中市,大里區,central,http://www.hust.edu.tw,private_or_other;technology
+118,school_118_光宇學校財團法人元培醫事,光宇學校財團法人元培醫事科技大學,886-3-6102212,300102 新竹市香山區元培街306 號,300102,新竹市,香山區,north,http://www.ypu.edu.tw,private_or_other;technology;medical_health
+119,school_119_台北海洋科技大學,台北海洋科技大學,886-2-28059999#1536,251310 新北市淡水區濱海路三段150 號,251310,新北市,淡水區,north,http://www.tumt.edu.tw/bin/home.php,private_or_other;technology
+120,school_120_崇右影藝科技大學,崇右影藝科技大學,886-2-24237785#332,201301 基隆市信義區義七路40 號,201301,基隆市,信義區,north,http://www.cufa.edu.tw,private_or_other;technology;arts
+121,school_121_廣亞學校財團法人育達科技,廣亞學校財團法人育達科技大學,886-37-651188#8910,361027 苗栗縣造橋鄉談文村學府路168 號,361027,苗栗縣,造橋鄉,central,https://www1.ydu.edu.tw/?locale=zh_tw,private_or_other;technology
+122,school_122_南亞科技學校財團法人南亞,南亞科技學校財團法人南亞技術學院,886-3-4361070#4142,320310 桃園市中壢區中山東路三段414 號,320310,桃園市,中壢區,north,http://www.nanya.edu.tw,private_or_other;technology
+123,school_123_東南科技大學,東南科技大學,886-2-8662-5948#5949,222304 臺灣新北市深坑區北深路三段152 號,222304,新北市,深坑區,north,https://www.tnu.edu.tw/,private_or_other;technology
+124,school_124_宏國德霖科技大學,宏國德霖科技大學,886-2-22733657#837,236302 新北市土城區青雲路380 巷1 號,236302,新北市,土城區,north,https://www.hdut.edu.tw,private_or_other;technology
+125,school_125_中信金學校財團法人中信科,中信金學校財團法人中信科技大學,886-6-5979566#7481,744004 台南市新市區中華路49 號,744004,台南市新市,,,https://www.ctbctech.edu.tw/,private_or_other;technology
+126,school_126_大仁科技大學,大仁科技大學,886-8-7624002,907391 屏東縣鹽埔鄉新二村維新路20 號,907391,屏東縣,鹽埔鄉,south,https://www.tajen.edu.tw/?Lang=zh-tw,private_or_other;technology
+127,school_127_台鋼學校財團法人台鋼科技,台鋼學校財團法人台鋼科技大學,886-7-6077216,821013 高雄市路竹區中山路1821 號,821013,高雄市,路竹區,south,https://www.tsust.edu.tw/,private_or_other;technology
+128,school_128_美和學校財團法人美和科技,美和學校財團法人美和科技大學,886-8-7799821#8739,912009 屏東縣內埔鄉美和村屏光路23 號,912009,屏東縣,內埔鄉,south,http://www.meiho.edu.tw,private_or_other;technology
+129,school_129_聖約翰科技大學,聖約翰科技大學,886-2-28013131#6789,251309 新北市淡水區淡金路四段499 號,251309,新北市,淡水區,north,http://www.sju.edu.tw,private_or_other;technology
+130,school_130_國立臺灣師範大學僑生先修,國立臺灣師範大學僑生先修部,886-2-77498267,244014 新北市林口區仁愛路一段2 號,244014,新北市,林口區,north,https://www.nups.ntnu.edu.tw,public;general_or_specialized_university;education

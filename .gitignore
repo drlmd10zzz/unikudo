@@ -1,0 +1,26 @@
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Dependency and framework output
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Vercel local project metadata
+.vercel/
+
+# Python/cache output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor/system files
+.idea/
+.vscode/
+*.swp

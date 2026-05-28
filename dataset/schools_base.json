@@ -1,0 +1,5493 @@
+[
+  {
+    "id": "school_001_國立臺灣大學",
+    "source_id": 1,
+    "name_zh": "國立臺灣大學",
+    "name_en": "National Taiwan University",
+    "phone": "886-2-33662007#271",
+    "address_raw": "106319 臺北市羅斯福路4 段1 號",
+    "postal_code": "106319",
+    "city_or_county": "臺北市",
+    "district": null,
+    "region": "north",
+    "website": "https://www.ntu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.441903+00:00",
+    "updated_at": "2026-05-13T14:57:35.441903+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_002_國立暨南國際大學",
+    "source_id": 2,
+    "name_zh": "國立暨南國際大學",
+    "name_en": "National Chi Nan University",
+    "phone": "886-49-2918305",
+    "address_raw": "545301 南投縣埔里鎮大學路1 號",
+    "postal_code": "545301",
+    "city_or_county": "南投縣",
+    "district": "埔里鎮",
+    "region": "central",
+    "website": "https://www.ncnu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "南投縣",
+      "central",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442650+00:00",
+    "updated_at": "2026-05-13T14:57:35.442650+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Nantou County",
+    "district_en": "Puli Township",
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_003_國立臺灣師範大學",
+    "source_id": 3,
+    "name_zh": "國立臺灣師範大學",
+    "name_en": "National Taiwan Normal University",
+    "phone": "886-2-7749-1283",
+    "address_raw": "106209 臺北市和平東路1 段162 號",
+    "postal_code": "106209",
+    "city_or_county": "臺北市",
+    "district": null,
+    "region": "north",
+    "website": "https://www.ntnu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442685+00:00",
+    "updated_at": "2026-05-13T14:57:35.442685+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_004_國立陽明交通大學",
+    "source_id": 4,
+    "name_zh": "國立陽明交通大學",
+    "name_en": "National Yang Ming Chiao Tung University",
+    "phone": "886-3-5712121#50135",
+    "address_raw": "300093 新竹市大學路1001 號(交大校區)； 112304 台北市北投區立農街二段155 號(陽明 校區)",
+    "postal_code": "300093",
+    "city_or_county": "新竹市",
+    "district": null,
+    "region": "north",
+    "website": "https://www.nycu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新竹市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442708+00:00",
+    "updated_at": "2026-05-13T14:57:35.442708+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "National Yang Ming Chiao Tung University",
+      "url": "https://www.nycu.edu.tw/nycu/en/index"
+    },
+    "city_or_county_en": "Hsinchu City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_005_國立清華大學",
+    "source_id": 5,
+    "name_zh": "國立清華大學",
+    "name_en": "National Tsing Hua University",
+    "phone": "886-3-5712861",
+    "address_raw": "300044 新竹市光復路2 段101 號",
+    "postal_code": "300044",
+    "city_or_county": "新竹市",
+    "district": null,
+    "region": "north",
+    "website": "https://www.nthu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新竹市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442721+00:00",
+    "updated_at": "2026-05-13T14:57:35.442721+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Hsinchu City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_006_國立成功大學",
+    "source_id": 6,
+    "name_zh": "國立成功大學",
+    "name_en": "National Cheng Kung University",
+    "phone": "886-6-2757575#50993",
+    "address_raw": "701401 臺南市大學路1 號",
+    "postal_code": "701401",
+    "city_or_county": "臺南市",
+    "district": null,
+    "region": "south",
+    "website": "https://web.ncku.edu.tw/index.php?Lang=zh-tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺南市",
+      "south",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442732+00:00",
+    "updated_at": "2026-05-13T14:57:35.442732+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_007_國立政治大學",
+    "source_id": 7,
+    "name_zh": "國立政治大學",
+    "name_en": "National Chengchi University",
+    "phone": "886-2-29393091# 62887",
+    "address_raw": "116011 臺北市文山區指南路二段64 號",
+    "postal_code": "116011",
+    "city_or_county": "臺北市",
+    "district": "文山區",
+    "region": "north",
+    "website": "https://www.nccu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442744+00:00",
+    "updated_at": "2026-05-13T14:57:35.442744+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Wenshan District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_008_國立臺灣海洋大學",
+    "source_id": 8,
+    "name_zh": "國立臺灣海洋大學",
+    "name_en": "National Taiwan Ocean University",
+    "phone": "886-2-24622192#1068",
+    "address_raw": "202301 基隆市中正區北寧路2 號",
+    "postal_code": "202301",
+    "city_or_county": "基隆市",
+    "district": "中正區",
+    "region": "north",
+    "website": "https://www.ntou.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "基隆市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442754+00:00",
+    "updated_at": "2026-05-13T14:57:35.442754+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Keelung City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_009_國立臺北大學",
+    "source_id": 9,
+    "name_zh": "國立臺北大學",
+    "name_en": "National Taipei University",
+    "phone": "886-2-86741111#66122",
+    "address_raw": "237303 新北市三峽區大學路151 號",
+    "postal_code": "237303",
+    "city_or_county": "新北市",
+    "district": "三峽區",
+    "region": "north",
+    "website": "https://new.ntpu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442764+00:00",
+    "updated_at": "2026-05-13T14:57:35.442764+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_010_國立中興大學",
+    "source_id": 10,
+    "name_zh": "國立中興大學",
+    "name_en": "National Chung Hsing University",
+    "phone": "886-4-22840216#16",
+    "address_raw": "402202 臺中市南區興大路145 號",
+    "postal_code": "402202",
+    "city_or_county": "臺中市",
+    "district": "南區",
+    "region": "central",
+    "website": "https://www.nchu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442774+00:00",
+    "updated_at": "2026-05-13T14:57:35.442774+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_011_國立中正大學",
+    "source_id": 11,
+    "name_zh": "國立中正大學",
+    "name_en": "National Chung Cheng University",
+    "phone": "886-5-2720411#11101",
+    "address_raw": "621301 嘉義縣民雄鄉大學路168 號",
+    "postal_code": "621301",
+    "city_or_county": "嘉義縣",
+    "district": "民雄鄉",
+    "region": "south",
+    "website": "https://www.ccu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "嘉義縣",
+      "south",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442783+00:00",
+    "updated_at": "2026-05-13T14:57:35.442783+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Chiayi County",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_012_國立中央大學",
+    "source_id": 12,
+    "name_zh": "國立中央大學",
+    "name_en": "National Central University",
+    "phone": "886-3-4227151#57146",
+    "address_raw": "320317 桃園市中壢區中大路300 號",
+    "postal_code": "320317",
+    "city_or_county": "桃園市",
+    "district": "中壢區",
+    "region": "north",
+    "website": "https://www.ncu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442792+00:00",
+    "updated_at": "2026-05-13T14:57:35.442792+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_013_國立中山大學",
+    "source_id": 13,
+    "name_zh": "國立中山大學",
+    "name_en": "National Sun Yat-sen University",
+    "phone": "886-7-5252000#2148",
+    "address_raw": "804201 高雄市鼓山區蓮海路70 號",
+    "postal_code": "804201",
+    "city_or_county": "高雄市",
+    "district": "鼓山區",
+    "region": "south",
+    "website": "http://www.nsysu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442801+00:00",
+    "updated_at": "2026-05-13T14:57:35.442801+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_014_國立東華大學",
+    "source_id": 14,
+    "name_zh": "國立東華大學",
+    "name_en": "National Dong Hwa University",
+    "phone": "886-3-8905114",
+    "address_raw": "974301 花蓮縣壽豐鄉大學路二段一號",
+    "postal_code": "974301",
+    "city_or_county": "花蓮縣",
+    "district": "壽豐鄉",
+    "region": "east",
+    "website": "http://www.ndhu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "花蓮縣",
+      "east",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442811+00:00",
+    "updated_at": "2026-05-13T14:57:35.442811+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Hualien County",
+    "district_en": null,
+    "region_en": "Eastern Taiwan"
+  },
+  {
+    "id": "school_015_國立嘉義大學",
+    "source_id": 15,
+    "name_zh": "國立嘉義大學",
+    "name_en": "National Chiayi University",
+    "phone": "886-5-2717296",
+    "address_raw": "600355 嘉義市學府路300 號",
+    "postal_code": "600355",
+    "city_or_county": "嘉義市",
+    "district": null,
+    "region": "south",
+    "website": "https://www.ncyu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "嘉義市",
+      "south",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442820+00:00",
+    "updated_at": "2026-05-13T14:57:35.442820+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Chiayi City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_016_國立彰化師範大學",
+    "source_id": 16,
+    "name_zh": "國立彰化師範大學",
+    "name_en": "National Changhua University of Education",
+    "phone": "886-4-7232105#5116",
+    "address_raw": "500207 彰化縣彰化市進德路1 號",
+    "postal_code": "500207",
+    "city_or_county": "彰化縣",
+    "district": "彰化市",
+    "region": null,
+    "website": "http://www.ncue.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "tags": [
+      "彰化縣彰化市",
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442829+00:00",
+    "updated_at": "2026-05-13T14:57:35.442829+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Changhua County",
+    "district_en": "Changhua City",
+    "region_en": null
+  },
+  {
+    "id": "school_017_國立高雄師範大學",
+    "source_id": 17,
+    "name_zh": "國立高雄師範大學",
+    "name_en": "National Kaohsiung Normal University",
+    "phone": "886-7-7172930#3959",
+    "address_raw": "802311 高雄市苓雅區和平一路116 號",
+    "postal_code": "802311",
+    "city_or_county": "高雄市",
+    "district": "苓雅區",
+    "region": "south",
+    "website": "http://www.nknu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442839+00:00",
+    "updated_at": "2026-05-13T14:57:35.442839+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_018_國立金門大學",
+    "source_id": 18,
+    "name_zh": "國立金門大學",
+    "name_en": "National Quemoy University",
+    "phone": "886-82-313734",
+    "address_raw": "892009 金門縣金寧鄉大學路1 號",
+    "postal_code": "892009",
+    "city_or_county": "金門縣",
+    "district": "金寧鄉",
+    "region": "islands",
+    "website": "https://www.nqu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "金門縣",
+      "islands",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442849+00:00",
+    "updated_at": "2026-05-13T14:57:35.442849+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kinmen County",
+    "district_en": null,
+    "region_en": "Offshore Islands"
+  },
+  {
+    "id": "school_019_國立宜蘭大學",
+    "source_id": 19,
+    "name_zh": "國立宜蘭大學",
+    "name_en": "National Ilan University",
+    "phone": "886-3-9357400#7073",
+    "address_raw": "260007 宜蘭市神農路1 段1 號",
+    "postal_code": "260007",
+    "city_or_county": "宜蘭縣",
+    "district": "宜蘭市",
+    "region": null,
+    "website": "http://www.niu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "宜蘭市",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442858+00:00",
+    "updated_at": "2026-05-13T14:57:35.442858+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Yilan County",
+    "district_en": "Yilan City",
+    "region_en": null
+  },
+  {
+    "id": "school_020_臺北市立大學",
+    "source_id": 20,
+    "name_zh": "臺北市立大學",
+    "name_en": "University of Taipei",
+    "phone": "886-2-28718288#7505(招生); 886-2-23113040#1121(註冊)",
+    "address_raw": "100234 臺北市中正區愛國西路1 號; 111036 臺北市士林區忠誠路2 段101 號",
+    "postal_code": "100234",
+    "city_or_county": "臺北市",
+    "district": "中正區",
+    "region": "north",
+    "website": "http://www.utaipei.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442898+00:00",
+    "updated_at": "2026-05-13T14:57:35.442898+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_021_國立臺中教育大學",
+    "source_id": 21,
+    "name_zh": "國立臺中教育大學",
+    "name_en": "National Taichung University of Education",
+    "phone": "886-4-22183682",
+    "address_raw": "403454 臺中市西區民生路140 號",
+    "postal_code": "403454",
+    "city_or_county": "臺中市",
+    "district": "西區",
+    "region": "central",
+    "website": "https://www.ntcu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442908+00:00",
+    "updated_at": "2026-05-13T14:57:35.442908+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_022_國立屏東大學",
+    "source_id": 22,
+    "name_zh": "國立屏東大學",
+    "name_en": "National Pingtung University",
+    "phone": "886-8-766-3800#17009",
+    "address_raw": "900391 屏東縣屏東市民生路4-18 號",
+    "postal_code": "900391",
+    "city_or_county": "屏東縣",
+    "district": "屏東市",
+    "region": null,
+    "website": "https://www.nptu.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "屏東縣屏東市",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442917+00:00",
+    "updated_at": "2026-05-13T14:57:35.442917+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Pingtung County",
+    "district_en": "Pingtung City",
+    "region_en": null
+  },
+  {
+    "id": "school_023_國立臺東大學",
+    "source_id": 23,
+    "name_zh": "國立臺東大學",
+    "name_en": "National Taitung University",
+    "phone": "886-89-517873",
+    "address_raw": "950309 臺東縣臺東市大學路二段369 號",
+    "postal_code": "950309",
+    "city_or_county": "臺東縣",
+    "district": "臺東市",
+    "region": null,
+    "website": "https://www.nttu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺東縣臺東市",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442926+00:00",
+    "updated_at": "2026-05-13T14:57:35.442926+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taitung County",
+    "district_en": "Taitung City",
+    "region_en": null
+  },
+  {
+    "id": "school_024_國立臺南大學",
+    "source_id": 24,
+    "name_zh": "國立臺南大學",
+    "name_en": "National University of Tainan",
+    "phone": "886-6-2133111#242",
+    "address_raw": "700301 臺南市中西區樹林街2 段33 號",
+    "postal_code": "700301",
+    "city_or_county": "臺南市",
+    "district": "中西區",
+    "region": "south",
+    "website": "https://www.nutn.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺南市",
+      "south",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442936+00:00",
+    "updated_at": "2026-05-13T14:57:35.442936+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_025_國立高雄大學",
+    "source_id": 25,
+    "name_zh": "國立高雄大學",
+    "name_en": "National University of Kaohsiung",
+    "phone": "886-7-5919000#8242",
+    "address_raw": "811726 高雄市楠梓區高雄大學路700 號",
+    "postal_code": "811726",
+    "city_or_county": "高雄市",
+    "district": "楠梓區",
+    "region": "south",
+    "website": "https://www.nuk.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442944+00:00",
+    "updated_at": "2026-05-13T14:57:35.442944+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_026_國立臺灣藝術大學",
+    "source_id": 26,
+    "name_zh": "國立臺灣藝術大學",
+    "name_en": "National Taiwan University of Arts",
+    "phone": "886-2-22722181#1151",
+    "address_raw": "220307 新北市板橋區大觀路1 段59 號",
+    "postal_code": "220307",
+    "city_or_county": "新北市",
+    "district": "板橋區",
+    "region": "north",
+    "website": "https://www.ntua.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442953+00:00",
+    "updated_at": "2026-05-13T14:57:35.442953+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": "Banqiao District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_027_國立臺北教育大學",
+    "source_id": 27,
+    "name_zh": "國立臺北教育大學",
+    "name_en": "National Taipei University of Education",
+    "phone": "886-2-66396688#82015",
+    "address_raw": "106320 臺北市大安區和平東路2 段134 號",
+    "postal_code": "106320",
+    "city_or_county": "臺北市",
+    "district": "大安區",
+    "region": "north",
+    "website": "https://www.ntue.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442963+00:00",
+    "updated_at": "2026-05-13T14:57:35.442963+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Da'an District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_028_國立臺北藝術大學",
+    "source_id": 28,
+    "name_zh": "國立臺北藝術大學",
+    "name_en": "Taipei National University of the Arts",
+    "phone": "886-2-28961000#1255",
+    "address_raw": "112301 臺北市北投區學園路1 號",
+    "postal_code": "112301",
+    "city_or_county": "臺北市",
+    "district": "北投區",
+    "region": "north",
+    "website": "https://w3.tnua.edu.tw/",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442972+00:00",
+    "updated_at": "2026-05-13T14:57:35.442972+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Beitou District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_029_國立臺灣體育運動大學",
+    "source_id": 29,
+    "name_zh": "國立臺灣體育運動大學",
+    "name_en": "National Taiwan University of Sport",
+    "phone": "886-4-22213108#2151",
+    "address_raw": "404401 臺中市北區雙十路一段16 號",
+    "postal_code": "404401",
+    "city_or_county": "臺中市",
+    "district": "北區",
+    "region": "central",
+    "website": "https://www.ntus.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "sports"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "public",
+      "general_or_specialized_university",
+      "sports"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442982+00:00",
+    "updated_at": "2026-05-13T14:57:35.442982+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_030_國立體育大學",
+    "source_id": 30,
+    "name_zh": "國立體育大學",
+    "name_en": "National Taiwan Sport University",
+    "phone": "886-3-3283201#1592",
+    "address_raw": "333325 桃園市龜山區文化一路250 號",
+    "postal_code": "333325",
+    "city_or_county": "桃園市",
+    "district": "龜山區",
+    "region": "north",
+    "website": "http://www.ntsu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "sports"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "sports"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.442991+00:00",
+    "updated_at": "2026-05-13T14:57:35.442991+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_031_國立臺南藝術大學",
+    "source_id": 31,
+    "name_zh": "國立臺南藝術大學",
+    "name_en": "Tainan National University of the Arts",
+    "phone": "886-6-6931212",
+    "address_raw": "720005 臺南市官田區大崎里66 號",
+    "postal_code": "720005",
+    "city_or_county": "臺南市",
+    "district": "官田區",
+    "region": "south",
+    "website": "https://www.tnnua.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "tags": [
+      "臺南市",
+      "south",
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443000+00:00",
+    "updated_at": "2026-05-13T14:57:35.443000+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_032_國防醫學大學",
+    "source_id": 32,
+    "name_zh": "國防醫學大學",
+    "name_en": "National Defense Medical University",
+    "phone": "886-2-87923100#18085",
+    "address_raw": "114201 臺北市內湖區民權東路六段161 號",
+    "postal_code": "114201",
+    "city_or_county": "臺北市",
+    "district": "內湖區",
+    "region": "north",
+    "website": "https://www.ndmctsgh.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443009+00:00",
+    "updated_at": "2026-05-13T14:57:35.443009+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "National Defense Medical University",
+      "url": "https://www.ndmctsgh.edu.tw/"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_033_國立聯合大學",
+    "source_id": 33,
+    "name_zh": "國立聯合大學",
+    "name_en": "National United University",
+    "phone": "886-37-381131",
+    "address_raw": "360001 苗栗市恭敬里聯大一號",
+    "postal_code": "360001",
+    "city_or_county": "苗栗縣",
+    "district": "苗栗市",
+    "region": null,
+    "website": "http://www.nuu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "苗栗市",
+      "public",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443019+00:00",
+    "updated_at": "2026-05-13T14:57:35.443019+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Miaoli County",
+    "district_en": "Miaoli City",
+    "region_en": null
+  },
+  {
+    "id": "school_034_中國醫藥大學",
+    "source_id": 34,
+    "name_zh": "中國醫藥大學",
+    "name_en": "China Medical University",
+    "phone": "886-4-22053366#1122",
+    "address_raw": "406040 台中市北屯區經貿路一段100 號",
+    "postal_code": "406040",
+    "city_or_county": "台中市",
+    "district": "北屯區",
+    "region": "central",
+    "website": "https://cmucia.cmu.edu.tw/admission.html",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443056+00:00",
+    "updated_at": "2026-05-13T14:57:35.443056+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_035_淡江大學",
+    "source_id": 35,
+    "name_zh": "淡江大學",
+    "name_en": "Tamkang University",
+    "phone": "886-2-26215656 #3567",
+    "address_raw": "251301 新北市淡水區英專路151 號",
+    "postal_code": "251301",
+    "city_or_county": "新北市",
+    "district": "淡水區",
+    "region": "north",
+    "website": "http://www.tku.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443075+00:00",
+    "updated_at": "2026-05-13T14:57:35.443075+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_036_中原大學",
+    "source_id": 36,
+    "name_zh": "中原大學",
+    "name_en": "Chung Yuan Christian University",
+    "phone": "886-3-2651718",
+    "address_raw": "320314 桃園市中壢區中北路200 號",
+    "postal_code": "320314",
+    "city_or_county": "桃園市",
+    "district": "中壢區",
+    "region": "north",
+    "website": "http://www.cycu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443087+00:00",
+    "updated_at": "2026-05-13T14:57:35.443087+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_037_天主教輔仁大學",
+    "source_id": 37,
+    "name_zh": "天主教輔仁大學",
+    "name_en": "Fu Jen Catholic University",
+    "phone": "886-2-29053074",
+    "address_raw": "242062 新北市新莊區中正路510 號",
+    "postal_code": "242062",
+    "city_or_county": "新北市",
+    "district": "新莊區",
+    "region": "north",
+    "website": "https://www.fju.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443097+00:00",
+    "updated_at": "2026-05-13T14:57:35.443097+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_038_東海大學",
+    "source_id": 38,
+    "name_zh": "東海大學",
+    "name_en": "Tunghai University",
+    "phone": "886-4-23598900",
+    "address_raw": "407224 台中市西屯區臺灣大道四段1727 號",
+    "postal_code": "407224",
+    "city_or_county": "台中市",
+    "district": "西屯區",
+    "region": "central",
+    "website": "https://www.thu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443108+00:00",
+    "updated_at": "2026-05-13T14:57:35.443108+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_039_中國文化大學",
+    "source_id": 39,
+    "name_zh": "中國文化大學",
+    "name_en": "Chinese Culture University",
+    "phone": "886-2-28610511 #11312",
+    "address_raw": "111396 台北市士林區華岡路55 號",
+    "postal_code": "111396",
+    "city_or_county": "台北市",
+    "district": "士林區",
+    "region": "north",
+    "website": "http://www.pccu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443117+00:00",
+    "updated_at": "2026-05-13T14:57:35.443117+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_040_逢甲大學",
+    "source_id": 40,
+    "name_zh": "逢甲大學",
+    "name_en": "Feng Chia University",
+    "phone": "886-4-24517250#2184",
+    "address_raw": "407102 台中市西屯區文華路100 號",
+    "postal_code": "407102",
+    "city_or_county": "台中市",
+    "district": "西屯區",
+    "region": "central",
+    "website": "https://www.fcu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443127+00:00",
+    "updated_at": "2026-05-13T14:57:35.443127+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_041_東吳大學",
+    "source_id": 41,
+    "name_zh": "東吳大學",
+    "name_en": "Soochow University",
+    "phone": "886-2-28819471#6068",
+    "address_raw": "111002 台北市士林區臨溪路70 號",
+    "postal_code": "111002",
+    "city_or_county": "台北市",
+    "district": "士林區",
+    "region": "north",
+    "website": "http://www.scu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443137+00:00",
+    "updated_at": "2026-05-13T14:57:35.443137+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_042_元智大學",
+    "source_id": 42,
+    "name_zh": "元智大學",
+    "name_en": "Yuan Ze University",
+    "phone": "886-3-4638800#3287",
+    "address_raw": "320315 桃園市中壢區遠東路135 號",
+    "postal_code": "320315",
+    "city_or_county": "桃園市",
+    "district": "中壢區",
+    "region": "north",
+    "website": "https://www.yzu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443146+00:00",
+    "updated_at": "2026-05-13T14:57:35.443146+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_043_長庚大學",
+    "source_id": 43,
+    "name_zh": "長庚大學",
+    "name_en": "Chang Gung University",
+    "phone": "886-3-2118800#3536",
+    "address_raw": "333323 桃園市龜山區文化一路259 號",
+    "postal_code": "333323",
+    "city_or_county": "桃園市",
+    "district": "龜山區",
+    "region": "north",
+    "website": "http://www.cgu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443155+00:00",
+    "updated_at": "2026-05-13T14:57:35.443155+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_044_世新大學",
+    "source_id": 44,
+    "name_zh": "世新大學",
+    "name_en": "Shih Hsin University",
+    "phone": "886-2-22368225#82042",
+    "address_raw": "116002 臺北市文山區木柵路一段17 巷1 號",
+    "postal_code": "116002",
+    "city_or_county": "臺北市",
+    "district": "文山區",
+    "region": "north",
+    "website": "https://www.shu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443165+00:00",
+    "updated_at": "2026-05-13T14:57:35.443165+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Wenshan District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_045_中山醫學大學",
+    "source_id": 45,
+    "name_zh": "中山醫學大學",
+    "name_en": "Chung Shan Medical University",
+    "phone": "886-4-36098795",
+    "address_raw": "402367 臺中市南區建國北路1 段110 號",
+    "postal_code": "402367",
+    "city_or_county": "臺中市",
+    "district": "南區",
+    "region": "central",
+    "website": "http://www.csmu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443174+00:00",
+    "updated_at": "2026-05-13T14:57:35.443174+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_046_實踐大學",
+    "source_id": 46,
+    "name_zh": "實踐大學",
+    "name_en": "Shih Chien University",
+    "phone": "886-2-25381111#2215",
+    "address_raw": "104336 台北市中山區大直街70 號",
+    "postal_code": "104336",
+    "city_or_county": "台北市",
+    "district": "中山區",
+    "region": "north",
+    "website": "https://www.usc.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443183+00:00",
+    "updated_at": "2026-05-13T14:57:35.443183+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_047_實踐大學高雄",
+    "source_id": 47,
+    "name_zh": "實踐大學(高雄)",
+    "name_en": "Shih Chien University",
+    "phone": "886-7-6678888#3191",
+    "address_raw": "845050 高雄市內門區內南里大學路200 號",
+    "postal_code": "845050",
+    "city_or_county": "高雄市",
+    "district": "內門區",
+    "region": "south",
+    "website": "https://www.kh.usc.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443192+00:00",
+    "updated_at": "2026-05-13T14:57:35.443192+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_048_義守大學",
+    "source_id": 48,
+    "name_zh": "義守大學",
+    "name_en": "I-Shou University",
+    "phone": "886-7-6577711",
+    "address_raw": "840301 高雄市大樹區學城路1 段1 號",
+    "postal_code": "840301",
+    "city_or_county": "高雄市",
+    "district": "大樹區",
+    "region": "south",
+    "website": "https://www.isu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443202+00:00",
+    "updated_at": "2026-05-13T14:57:35.443202+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_049_臺北醫學大學",
+    "source_id": 49,
+    "name_zh": "臺北醫學大學",
+    "name_en": "Taipei Medical University",
+    "phone": "886-2-27361661#2144",
+    "address_raw": "110301 臺北市信義區吳興街250 號",
+    "postal_code": "110301",
+    "city_or_county": "臺北市",
+    "district": "信義區",
+    "region": "north",
+    "website": "https://www.tmu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443211+00:00",
+    "updated_at": "2026-05-13T14:57:35.443211+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_050_靜宜大學",
+    "source_id": 50,
+    "name_zh": "靜宜大學",
+    "name_en": "Providence University",
+    "phone": "886-4-26328001",
+    "address_raw": "433303 台中市沙鹿區台灣大道七段200 號",
+    "postal_code": "433303",
+    "city_or_county": "台中市",
+    "district": "沙鹿區",
+    "region": "central",
+    "website": "https://oia.pu.edu.tw/app/home.php",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443220+00:00",
+    "updated_at": "2026-05-13T14:57:35.443220+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_051_長榮大學",
+    "source_id": 51,
+    "name_zh": "長榮大學",
+    "name_en": "Chang Jung Christian University",
+    "phone": "886-6-2785123#1737",
+    "address_raw": "711301 臺南市歸仁區長大路1 號",
+    "postal_code": "711301",
+    "city_or_county": "臺南市",
+    "district": "歸仁區",
+    "region": "south",
+    "website": "http://www.cjcu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺南市",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443229+00:00",
+    "updated_at": "2026-05-13T14:57:35.443229+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_052_真理大學",
+    "source_id": 52,
+    "name_zh": "真理大學",
+    "name_en": "Aletheia University",
+    "phone": "886-2-26212121#7439",
+    "address_raw": "251306 新北市淡水區真理街32 號",
+    "postal_code": "251306",
+    "city_or_county": "新北市",
+    "district": "淡水區",
+    "region": "north",
+    "website": "http://www.au.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443237+00:00",
+    "updated_at": "2026-05-13T14:57:35.443237+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_053_開南大學",
+    "source_id": 53,
+    "name_zh": "開南大學",
+    "name_en": "Kainan University",
+    "phone": "886-3-3412500#6028",
+    "address_raw": "338103 桃園市蘆竹區開南路1 號",
+    "postal_code": "338103",
+    "city_or_county": "桃園市",
+    "district": "蘆竹區",
+    "region": "north",
+    "website": "http://www.knu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443246+00:00",
+    "updated_at": "2026-05-13T14:57:35.443246+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_054_大葉大學",
+    "source_id": 54,
+    "name_zh": "大葉大學",
+    "name_en": "Da-Yeh University",
+    "phone": "886-4-8511888#1788",
+    "address_raw": "515006 彰化縣大村鄉學府路168 號",
+    "postal_code": "515006",
+    "city_or_county": "彰化縣",
+    "district": "大村鄉",
+    "region": "central",
+    "website": "http://www.dyu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "彰化縣",
+      "central",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443256+00:00",
+    "updated_at": "2026-05-13T14:57:35.443256+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Changhua County",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_055_大同大學",
+    "source_id": 55,
+    "name_zh": "大同大學",
+    "name_en": "Tatung University",
+    "phone": "886-2-21822928#7521",
+    "address_raw": "104327 台北市中山北路三段40 號",
+    "postal_code": "104327",
+    "city_or_county": "台北市",
+    "district": null,
+    "region": "north",
+    "website": "https://www.ttu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443265+00:00",
+    "updated_at": "2026-05-13T14:57:35.443265+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_056_華梵大學",
+    "source_id": 56,
+    "name_zh": "華梵大學",
+    "name_en": "Huafan University",
+    "phone": "886-2-26632102#2233",
+    "address_raw": "223011 新北市石碇區華梵路1 號",
+    "postal_code": "223011",
+    "city_or_county": "新北市",
+    "district": "石碇區",
+    "region": "north",
+    "website": "http://www.hfu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443274+00:00",
+    "updated_at": "2026-05-13T14:57:35.443274+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_057_南華大學",
+    "source_id": 57,
+    "name_zh": "南華大學",
+    "name_en": "Nanhua university",
+    "phone": "886-5-2721001#1711",
+    "address_raw": "622301 嘉義縣大林鎮南華路一段55 號",
+    "postal_code": "622301",
+    "city_or_county": "嘉義縣",
+    "district": "大林鎮",
+    "region": "south",
+    "website": "https://www3.nhu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "嘉義縣",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443283+00:00",
+    "updated_at": "2026-05-13T14:57:35.443283+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Chiayi County",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_058_玄奘大學",
+    "source_id": 58,
+    "name_zh": "玄奘大學",
+    "name_en": "Hsuan Chuang University",
+    "phone": "886-3-5302255 #2199",
+    "address_raw": "300102 新竹市香山區玄奘路48 號",
+    "postal_code": "300102",
+    "city_or_county": "新竹市",
+    "district": "香山區",
+    "region": "north",
+    "website": "http://www.hcu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新竹市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443292+00:00",
+    "updated_at": "2026-05-13T14:57:35.443292+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Hsinchu City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_059_佛光大學",
+    "source_id": 59,
+    "name_zh": "佛光大學",
+    "name_en": "Fo Guang University",
+    "phone": "886-3-9871000#12512",
+    "address_raw": "262307 宜蘭縣礁溪鄉林美村林尾路160 號",
+    "postal_code": "262307",
+    "city_or_county": "宜蘭縣",
+    "district": "礁溪鄉",
+    "region": "north",
+    "website": "http://www.fgu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "宜蘭縣",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443301+00:00",
+    "updated_at": "2026-05-13T14:57:35.443301+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Yilan County",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_060_",
+    "source_id": 60,
+    "name_zh": "馬偕學校財團法人馬偕醫學大學",
+    "name_en": "MacKay Medical University",
+    "phone": "馬偕學校財團法人馬偕醫886-2-26360303#1123",
+    "address_raw": "252005 新北市三芝區中正路三段46 號",
+    "postal_code": "252005",
+    "city_or_county": "新北市",
+    "district": "三芝區",
+    "region": "north",
+    "website": "https://www.mmu.edu.tw/",
+    "school_category": [
+      "private_or_other"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        63
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443312+00:00",
+    "updated_at": "2026-05-13T14:57:35.443312+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "MacKay Medical University",
+      "url": "https://www.mmu.edu.tw/mmu-en"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": "Sanzhi District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_061_中信金融管理學院",
+    "source_id": 61,
+    "name_zh": "中信金融管理學院",
+    "name_en": "CTBC Business School",
+    "phone": "886-6-2873335#2676",
+    "address_raw": "709301 台南市安南區台江大道3 段600 號",
+    "postal_code": "709301",
+    "city_or_county": "台南市",
+    "district": "安南區",
+    "region": "south",
+    "website": "http://www.ctbc.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "business_management"
+    ],
+    "tags": [
+      "台南市",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university",
+      "business_management"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443323+00:00",
+    "updated_at": "2026-05-13T14:57:35.443323+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_062_銘傳大學臺北",
+    "source_id": 62,
+    "name_zh": "銘傳大學(臺北)",
+    "name_en": "Ming Chuan University",
+    "phone": "886-2-28824564#2247",
+    "address_raw": "111005 台北市士林區中山北路五段250 號",
+    "postal_code": "111005",
+    "city_or_county": "台北市",
+    "district": "士林區",
+    "region": "north",
+    "website": "https://web2.mcu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443333+00:00",
+    "updated_at": "2026-05-13T14:57:35.443333+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_063_銘傳大學桃園",
+    "source_id": 63,
+    "name_zh": "銘傳大學(桃園)",
+    "name_en": "Ming Chuan University",
+    "phone": "886-2-28824564#2247",
+    "address_raw": "111005 台北市士林區中山北路五段250 號",
+    "postal_code": "111005",
+    "city_or_county": "台北市",
+    "district": "士林區",
+    "region": "north",
+    "website": "https://web2.mcu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443343+00:00",
+    "updated_at": "2026-05-13T14:57:35.443343+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_064_高雄醫學大學",
+    "source_id": 64,
+    "name_zh": "高雄醫學大學",
+    "name_en": "Kaohsiung Medical University",
+    "phone": "886-7-3121101#2109",
+    "address_raw": "807378 高雄市三民區十全一路100 號",
+    "postal_code": "807378",
+    "city_or_county": "高雄市",
+    "district": "三民區",
+    "region": "south",
+    "website": "https://www.kmu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443352+00:00",
+    "updated_at": "2026-05-13T14:57:35.443352+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_065_亞洲大學",
+    "source_id": 65,
+    "name_zh": "亞洲大學",
+    "name_en": "Asia University",
+    "phone": "886-4-23323456# 6275",
+    "address_raw": "413305 台中市霧峰區柳豐路500 號",
+    "postal_code": "413305",
+    "city_or_county": "台中市",
+    "district": "霧峰區",
+    "region": "central",
+    "website": "http://www.asia.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443361+00:00",
+    "updated_at": "2026-05-13T14:57:35.443361+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_066_慈濟大學",
+    "source_id": 66,
+    "name_zh": "慈濟大學",
+    "name_en": "Tzu Chi University",
+    "phone": "886-3-8565301#11025",
+    "address_raw": "970374 花蓮縣花蓮市中央路3 段701 號",
+    "postal_code": "970374",
+    "city_or_county": "花蓮縣",
+    "district": "花蓮市",
+    "region": null,
+    "website": "https://www.tcu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "花蓮縣花蓮市",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443385+00:00",
+    "updated_at": "2026-05-13T14:57:35.443385+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Hualien County",
+    "district_en": "Hualien City",
+    "region_en": null
+  },
+  {
+    "id": "school_067_康寧大學",
+    "source_id": 67,
+    "name_zh": "康寧大學",
+    "name_en": "University of Kang Ning",
+    "phone": "886-2-2632-1181#310",
+    "address_raw": "114055 臺北市內湖區康寧路三段75 巷137 號 (臺北校區)",
+    "postal_code": "114055",
+    "city_or_county": "臺北市",
+    "district": "內湖區",
+    "region": "north",
+    "website": "https://www.ukn.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443396+00:00",
+    "updated_at": "2026-05-13T14:57:35.443396+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_068_法鼓學校財團法人法鼓文理",
+    "source_id": 68,
+    "name_zh": "法鼓學校財團法人法鼓文理學院",
+    "name_en": "Dharma Drum Institute of Liberal Art",
+    "phone": "886-2-24980707#5316",
+    "address_raw": "208303 新北市金山區西湖里法鼓路700 號",
+    "postal_code": "208303",
+    "city_or_county": "新北市",
+    "district": "金山區",
+    "region": "north",
+    "website": "https://www.dila.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443405+00:00",
+    "updated_at": "2026-05-13T14:57:35.443405+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_069_臺北基督學院",
+    "source_id": 69,
+    "name_zh": "臺北基督學院",
+    "name_en": "Christ’s College Taipei",
+    "phone": "886-2-2809-7661# 2220",
+    "address_raw": "251022 新北市淡水區自強路51 號",
+    "postal_code": "251022",
+    "city_or_county": "新北市",
+    "district": "淡水區",
+    "region": "north",
+    "website": "http://www.cct.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443416+00:00",
+    "updated_at": "2026-05-13T14:57:35.443416+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_070_國立高雄科技大學",
+    "source_id": 70,
+    "name_zh": "國立高雄科技大學",
+    "name_en": "National Kaohsiung University of Science and Technology",
+    "phone": "886-7-3814526#19022",
+    "address_raw": "807618 高雄市三民區建工路415 號",
+    "postal_code": "807618",
+    "city_or_county": "高雄市",
+    "district": "三民區",
+    "region": "south",
+    "website": "http://www.nkust.edu.tw",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443425+00:00",
+    "updated_at": "2026-05-13T14:57:35.443425+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_071_國立虎尾科技大學",
+    "source_id": 71,
+    "name_zh": "國立虎尾科技大學",
+    "name_en": "National Formosa University",
+    "phone": "886-5-6315107",
+    "address_raw": "632301 雲林縣虎尾鎮文化路64 號",
+    "postal_code": "632301",
+    "city_or_county": "雲林縣",
+    "district": "虎尾鎮",
+    "region": "central",
+    "website": "https://www.nfu.edu.tw/zh/",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "雲林縣",
+      "central",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443434+00:00",
+    "updated_at": "2026-05-13T14:57:35.443434+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Yunlin County",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_072_國立屏東科技大學",
+    "source_id": 72,
+    "name_zh": "國立屏東科技大學",
+    "name_en": "National Pingtung University of Science and Technology",
+    "phone": "886-8-7703202#6023",
+    "address_raw": "912301 屏東縣內埔鄉老埤村學府路1 號",
+    "postal_code": "912301",
+    "city_or_county": "屏東縣",
+    "district": "內埔鄉",
+    "region": "south",
+    "website": "https://wp.npust.edu.tw/",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "屏東縣",
+      "south",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443443+00:00",
+    "updated_at": "2026-05-13T14:57:35.443443+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Pingtung County",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_073_國立臺中科技大學",
+    "source_id": 73,
+    "name_zh": "國立臺中科技大學",
+    "name_en": "National Taichung University of Science and Technology",
+    "phone": "886-4-22195755",
+    "address_raw": "404336 臺中市北區三民路三段129 號",
+    "postal_code": "404336",
+    "city_or_county": "臺中市",
+    "district": "北區",
+    "region": "central",
+    "website": "https://www.nutc.edu.tw/",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443452+00:00",
+    "updated_at": "2026-05-13T14:57:35.443452+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_074_國立臺北科技大學",
+    "source_id": 74,
+    "name_zh": "國立臺北科技大學",
+    "name_en": "National Taipei University of Technology",
+    "phone": "886-2-27712171#6513",
+    "address_raw": "106344 台北市忠孝東路三段一號",
+    "postal_code": "106344",
+    "city_or_county": "台北市",
+    "district": null,
+    "region": "north",
+    "website": "https://www.ntut.edu.tw/",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443461+00:00",
+    "updated_at": "2026-05-13T14:57:35.443461+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_075_國立雲林科技大學",
+    "source_id": 75,
+    "name_zh": "國立雲林科技大學",
+    "name_en": "National Yunlin University of Science & Technology",
+    "phone": "886-5-5372637",
+    "address_raw": "640301 雲林縣斗六市大學路3 段123 號",
+    "postal_code": "640301",
+    "city_or_county": "雲林縣",
+    "district": "斗六市",
+    "region": null,
+    "website": "https://www.yuntech.edu.tw/",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "雲林縣斗六市",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443470+00:00",
+    "updated_at": "2026-05-13T14:57:35.443470+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Yunlin County",
+    "district_en": "Douliu City",
+    "region_en": null
+  },
+  {
+    "id": "school_076_國立澎湖科技大學",
+    "source_id": 76,
+    "name_zh": "國立澎湖科技大學",
+    "name_en": "National Penghu University of Science and Technology",
+    "phone": "886-6-9264115#1122",
+    "address_raw": "880011 澎湖縣馬公市六合路300 號",
+    "postal_code": "880011",
+    "city_or_county": "澎湖縣",
+    "district": "馬公市",
+    "region": null,
+    "website": "https://www.npu.edu.tw",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "澎湖縣馬公市",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443478+00:00",
+    "updated_at": "2026-05-13T14:57:35.443478+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Penghu County",
+    "district_en": "Magong City",
+    "region_en": null
+  },
+  {
+    "id": "school_077_國立臺北護理健康大學",
+    "source_id": 77,
+    "name_zh": "國立臺北護理健康大學",
+    "name_en": "National Taipei University of Nursing and Health Sciences",
+    "phone": "886-2-28227101#2733",
+    "address_raw": "112303 台北市北投區明德路365 號",
+    "postal_code": "112303",
+    "city_or_county": "台北市",
+    "district": "北投區",
+    "region": "north",
+    "website": "https://www.ntunhs.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443487+00:00",
+    "updated_at": "2026-05-13T14:57:35.443487+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Beitou District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_078_國立臺北商業大學",
+    "source_id": 78,
+    "name_zh": "國立臺北商業大學",
+    "name_en": "National Taipei University of Business",
+    "phone": "886-2-23226050",
+    "address_raw": "100025 臺北市中正區濟南路一段321 號",
+    "postal_code": "100025",
+    "city_or_county": "臺北市",
+    "district": "中正區",
+    "region": "north",
+    "website": "https://www.ntub.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "business_management"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "business_management"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443497+00:00",
+    "updated_at": "2026-05-13T14:57:35.443497+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_079_國立勤益科技大學",
+    "source_id": 79,
+    "name_zh": "國立勤益科技大學",
+    "name_en": "National Chin-Yi University of Technology",
+    "phone": "886-4-23924505#2186",
+    "address_raw": "411030 臺中市太平區坪林里中山路二段57 號",
+    "postal_code": "411030",
+    "city_or_county": "臺中市",
+    "district": "太平區",
+    "region": "central",
+    "website": "http://www.ncut.edu.tw",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443506+00:00",
+    "updated_at": "2026-05-13T14:57:35.443506+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_080_國立高雄餐旅大學",
+    "source_id": 80,
+    "name_zh": "國立高雄餐旅大學",
+    "name_en": "National Kaohsiung University of Hospitality and Tourism",
+    "phone": "886-7-8060505#12202",
+    "address_raw": "812301 高雄市小港區松和路1 號",
+    "postal_code": "812301",
+    "city_or_county": "高雄市",
+    "district": "小港區",
+    "region": "south",
+    "website": "https://www.nkuht.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "hospitality"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "public",
+      "general_or_specialized_university",
+      "hospitality"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443515+00:00",
+    "updated_at": "2026-05-13T14:57:35.443515+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_081_國立臺灣戲曲學院",
+    "source_id": 81,
+    "name_zh": "國立臺灣戲曲學院",
+    "name_en": "National Taiwan College of Performing Arts",
+    "phone": "886-2-27962666#1222",
+    "address_raw": "114023 臺北市內湖區內湖路二段177 號",
+    "postal_code": "114023",
+    "city_or_county": "臺北市",
+    "district": "內湖區",
+    "region": "north",
+    "website": "http://www.tcpa.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "tags": [
+      "臺北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "arts"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443524+00:00",
+    "updated_at": "2026-05-13T14:57:35.443524+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_082_國立臺灣科技大學",
+    "source_id": 82,
+    "name_zh": "國立臺灣科技大學",
+    "name_en": "National Taiwan University of Science and Technology",
+    "phone": "886-2-27301190",
+    "address_raw": "106335 台北市大安區基隆路四段43 號",
+    "postal_code": "106335",
+    "city_or_county": "台北市",
+    "district": "大安區",
+    "region": "north",
+    "website": "http://www.ntust.edu.tw",
+    "school_category": [
+      "public",
+      "technology"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "public",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443533+00:00",
+    "updated_at": "2026-05-13T14:57:35.443533+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Da'an District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_083_南臺科技大學",
+    "source_id": 83,
+    "name_zh": "南臺科技大學",
+    "name_en": "Southern Taiwan University of Science and Technology",
+    "phone": "886-6-2533131#2120-2122",
+    "address_raw": "710301 台南市永康區尚頂里南台街1 號",
+    "postal_code": "710301",
+    "city_or_county": "台南市",
+    "district": "永康區",
+    "region": "south",
+    "website": "https://www.stust.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台南市",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443542+00:00",
+    "updated_at": "2026-05-13T14:57:35.443542+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_084_正修科技大學",
+    "source_id": 84,
+    "name_zh": "正修科技大學",
+    "name_en": "Cheng Shiu University",
+    "phone": "886-7-7358800 #6228",
+    "address_raw": "833301 高雄市鳥松區澄清路840 號",
+    "postal_code": "833301",
+    "city_or_county": "高雄市",
+    "district": "鳥松區",
+    "region": "south",
+    "website": "https://www.csu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443551+00:00",
+    "updated_at": "2026-05-13T14:57:35.443551+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_085_朝陽科技大學",
+    "source_id": 85,
+    "name_zh": "朝陽科技大學",
+    "name_en": "Chaoyang University of Technology",
+    "phone": "886-4-23323000#3130",
+    "address_raw": "413310 臺中市霧峰區吉峰東路168 號",
+    "postal_code": "413310",
+    "city_or_county": "臺中市",
+    "district": "霧峰區",
+    "region": "central",
+    "website": "http://www.cyut.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443560+00:00",
+    "updated_at": "2026-05-13T14:57:35.443560+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_086_嘉藥學校財團法人嘉南藥理",
+    "source_id": 86,
+    "name_zh": "嘉藥學校財團法人嘉南藥理大學",
+    "name_en": "Chia Nan University of Pharmacy & Science",
+    "phone": "886-6-2664911#1802",
+    "address_raw": "717301 台南市仁德區二仁路一段60 號",
+    "postal_code": "717301",
+    "city_or_county": "台南市",
+    "district": "仁德區",
+    "region": "south",
+    "website": "https://www.cnu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "台南市",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443569+00:00",
+    "updated_at": "2026-05-13T14:57:35.443569+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_087_崑山科技大學",
+    "source_id": 87,
+    "name_zh": "崑山科技大學",
+    "name_en": "Kun Shan University",
+    "phone": "886-6-2727175#258",
+    "address_raw": "710303 台南市永康區崑大路195 號",
+    "postal_code": "710303",
+    "city_or_county": "台南市",
+    "district": "永康區",
+    "region": "south",
+    "website": "http://www.ksu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台南市",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443579+00:00",
+    "updated_at": "2026-05-13T14:57:35.443579+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_088_台南家專學校財團法人台南",
+    "source_id": 88,
+    "name_zh": "台南家專學校財團法人台南應用科技大學",
+    "name_en": "Tainan School of Home Economics Foundation at Tainan University of Technology",
+    "phone": "886-6-2531094",
+    "address_raw": "710302 台南市永康區中正路529 號",
+    "postal_code": "710302",
+    "city_or_county": "台南市",
+    "district": "永康區",
+    "region": "south",
+    "website": "https://www.tut.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台南市",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443588+00:00",
+    "updated_at": "2026-05-13T14:57:35.443588+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_089_城市學校財團法人臺北城市",
+    "source_id": 89,
+    "name_zh": "城市學校財團法人臺北城市科技大學",
+    "name_en": "Taipei City University of Science and Technology",
+    "phone": "886-2-28927154#5902",
+    "address_raw": "112302 台北市北投區學園路2 號",
+    "postal_code": "112302",
+    "city_or_county": "台北市",
+    "district": "北投區",
+    "region": "north",
+    "website": "http://www.tpcu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443599+00:00",
+    "updated_at": "2026-05-13T14:57:35.443599+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Beitou District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_090_長庚學校財團法人長庚科技",
+    "source_id": 90,
+    "name_zh": "長庚學校財團法人長庚科技大學",
+    "name_en": "Chang Gung University of Science and Technology",
+    "phone": "886-3-2118999#5356",
+    "address_raw": "333324 桃園市龜山區文化一路261 號",
+    "postal_code": "333324",
+    "city_or_county": "桃園市",
+    "district": "龜山區",
+    "region": "north",
+    "website": "http://www.cgust.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443611+00:00",
+    "updated_at": "2026-05-13T14:57:35.443611+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_091_弘光科技大學",
+    "source_id": 91,
+    "name_zh": "弘光科技大學",
+    "name_en": "Hungkuang University",
+    "phone": "886-4-26318652#6156",
+    "address_raw": "433304 台中市沙鹿區台灣大道6 段1018 號",
+    "postal_code": "433304",
+    "city_or_county": "台中市",
+    "district": "沙鹿區",
+    "region": "central",
+    "website": "http://www.hk.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443621+00:00",
+    "updated_at": "2026-05-13T14:57:35.443621+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_092_健行科技大學",
+    "source_id": 92,
+    "name_zh": "健行科技大學",
+    "name_en": "Chien Hsin University of Science and Technology",
+    "phone": "886-3-4581196#6230",
+    "address_raw": "320312 桃園市中壢區健行路229 號",
+    "postal_code": "320312",
+    "city_or_county": "桃園市",
+    "district": "中壢區",
+    "region": "north",
+    "website": "http://www.uch.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443630+00:00",
+    "updated_at": "2026-05-13T14:57:35.443630+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_093_南開科技大學",
+    "source_id": 93,
+    "name_zh": "南開科技大學",
+    "name_en": "Nan Kai University of Technology",
+    "phone": "886-49-2563489#1596",
+    "address_raw": "542021 南投縣草屯鎮中正路568 號",
+    "postal_code": "542021",
+    "city_or_county": "南投縣",
+    "district": "草屯鎮",
+    "region": "central",
+    "website": "http://www.nkut.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "南投縣",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443639+00:00",
+    "updated_at": "2026-05-13T14:57:35.443639+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Nantou County",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_094_亞東學校財團法人亞東科技",
+    "source_id": 94,
+    "name_zh": "亞東學校財團法人亞東科技大學",
+    "name_en": "Asia Eastern University of Science and Technology",
+    "phone": "886-2-77387708",
+    "address_raw": "220303 新北市板橋區四川路二段58 號",
+    "postal_code": "220303",
+    "city_or_county": "新北市",
+    "district": "板橋區",
+    "region": "north",
+    "website": "https://www.aeust.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443649+00:00",
+    "updated_at": "2026-05-13T14:57:35.443649+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "Asia Eastern University of Science and Technology",
+      "url": "https://eng-rp.aeust.edu.tw/"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": "Banqiao District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_095_德育學校財團法人德育護理",
+    "source_id": 95,
+    "name_zh": "德育學校財團法人德育護理健康學院",
+    "name_en": "Deh Yu College of Nursing and Health",
+    "phone": "886-2-24372093#619",
+    "address_raw": "203301 基隆市中山區復興路336 號",
+    "postal_code": "203301",
+    "city_or_county": "基隆市",
+    "district": "中山區",
+    "region": "north",
+    "website": "http://www.dyhu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "tags": [
+      "基隆市",
+      "north",
+      "private_or_other",
+      "general_or_specialized_university",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443672+00:00",
+    "updated_at": "2026-05-13T14:57:35.443672+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "Deh Yu College of Nursing and Health",
+      "url": "http://www.dyhu.edu.tw"
+    },
+    "city_or_county_en": "Keelung City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_096_建國科技大學",
+    "source_id": 96,
+    "name_zh": "建國科技大學",
+    "name_en": "Chienkuo Technology University",
+    "phone": "886-4-7111111#1727",
+    "address_raw": "500020 彰化縣彰化市介壽北路1 號",
+    "postal_code": "500020",
+    "city_or_county": "彰化縣",
+    "district": "彰化市",
+    "region": null,
+    "website": "http://www.ctu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "彰化縣彰化市",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443685+00:00",
+    "updated_at": "2026-05-13T14:57:35.443685+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Changhua County",
+    "district_en": "Changhua City",
+    "region_en": null
+  },
+  {
+    "id": "school_097_僑光科技大學",
+    "source_id": 97,
+    "name_zh": "僑光科技大學",
+    "name_en": "Overseas Chinese University",
+    "phone": "886-4-27016855#1507",
+    "address_raw": "407805 台中市西屯區僑光路 100 號",
+    "postal_code": "407805",
+    "city_or_county": "台中市",
+    "district": "西屯區",
+    "region": "central",
+    "website": "http://www.ocu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443695+00:00",
+    "updated_at": "2026-05-13T14:57:35.443695+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_098_景文科技大學",
+    "source_id": 98,
+    "name_zh": "景文科技大學",
+    "name_en": "Jinwen University of Science and Technology",
+    "phone": "886-2-82122000#2207",
+    "address_raw": "231307 新北市新店區安忠路99 號",
+    "postal_code": "231307",
+    "city_or_county": "新北市",
+    "district": "新店區",
+    "region": "north",
+    "website": "https://www.just.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443705+00:00",
+    "updated_at": "2026-05-13T14:57:35.443705+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_099_中國科技大學",
+    "source_id": 99,
+    "name_zh": "中國科技大學",
+    "name_en": "China University of Technology",
+    "phone": "886-3-6991111#1124",
+    "address_raw": "116077 台北市文山區興隆路三段56 號",
+    "postal_code": "116077",
+    "city_or_county": "台北市",
+    "district": "文山區",
+    "region": "north",
+    "website": "http://www.cute.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443714+00:00",
+    "updated_at": "2026-05-13T14:57:35.443714+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": "Wenshan District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_100_醒吾科技大學",
+    "source_id": 100,
+    "name_zh": "醒吾科技大學",
+    "name_en": "Hsing Wu University of Science and Technology",
+    "phone": "886-2-26015310#1201",
+    "address_raw": "244012 新北市林口區粉寮路一段101 號",
+    "postal_code": "244012",
+    "city_or_county": "新北市",
+    "district": "林口區",
+    "region": "north",
+    "website": "https://www.hwu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443726+00:00",
+    "updated_at": "2026-05-13T14:57:35.443726+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_101_萬能學校財團法人萬能科技",
+    "source_id": 101,
+    "name_zh": "萬能學校財團法人萬能科技大學",
+    "name_en": "Vanung University",
+    "phone": "886-3-4515811",
+    "address_raw": "320313 桃園市中壢區萬能路1 號",
+    "postal_code": "320313",
+    "city_or_county": "桃園市",
+    "district": "中壢區",
+    "region": "north",
+    "website": "http://www.vnu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443736+00:00",
+    "updated_at": "2026-05-13T14:57:35.443736+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_102_樹德科技大學",
+    "source_id": 102,
+    "name_zh": "樹德科技大學",
+    "name_en": "Shu-Te University",
+    "phone": "886-7-6158000#1604",
+    "address_raw": "824005 高雄市燕巢區橫山路59 號",
+    "postal_code": "824005",
+    "city_or_county": "高雄市",
+    "district": "燕巢區",
+    "region": "south",
+    "website": "https://www.stu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443745+00:00",
+    "updated_at": "2026-05-13T14:57:35.443745+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_103_中華學校財團法人中華科技",
+    "source_id": 103,
+    "name_zh": "中華學校財團法人中華科技大學",
+    "name_en": "China University of Science and Technology",
+    "phone": "886-2-27821862#203",
+    "address_raw": "115311 台北市南港區研究院路三段245 號",
+    "postal_code": "115311",
+    "city_or_county": "台北市",
+    "district": "南港區",
+    "region": "north",
+    "website": "http://www.cust.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443755+00:00",
+    "updated_at": "2026-05-13T14:57:35.443755+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_104_德明財經科技大學",
+    "source_id": 104,
+    "name_zh": "德明財經科技大學",
+    "name_en": "Takming University of Science and Technology",
+    "phone": "886-2-26585801#3111",
+    "address_raw": "114011 台北市內湖區環山路一段56 號",
+    "postal_code": "114011",
+    "city_or_county": "台北市",
+    "district": "內湖區",
+    "region": "north",
+    "website": "https://www.takming.edu.tw/schtm/default.asp",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443767+00:00",
+    "updated_at": "2026-05-13T14:57:35.443767+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_105_大華學校財團法人敏實科技",
+    "source_id": 105,
+    "name_zh": "大華學校財團法人敏實科技大學",
+    "name_en": "Minth University of Science and Technology",
+    "phone": "886-3-592-7700#2602",
+    "address_raw": "307304 新竹縣芎林鄉大華路1 號",
+    "postal_code": "307304",
+    "city_or_county": "新竹縣",
+    "district": "芎林鄉",
+    "region": "north",
+    "website": "http://www.mitust.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新竹縣",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443777+00:00",
+    "updated_at": "2026-05-13T14:57:35.443777+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "Minth University of Science and Technology",
+      "url": "https://www.mitust.edu.tw/"
+    },
+    "city_or_county_en": "Hsinchu County",
+    "district_en": "Qionglin Township",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_106_黎明技術學院",
+    "source_id": 106,
+    "name_zh": "黎明技術學院",
+    "name_en": "Lee-Ming Institute of Technology",
+    "phone": "886-2-29095785",
+    "address_raw": "243083 新北市泰山區黎明里泰林路3 段22 號",
+    "postal_code": "243083",
+    "city_or_county": "新北市",
+    "district": "泰山區",
+    "region": "north",
+    "website": "https://www.lit.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443788+00:00",
+    "updated_at": "2026-05-13T14:57:35.443788+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_107_明新科技大學",
+    "source_id": 107,
+    "name_zh": "明新科技大學",
+    "name_en": "Minghsin University of Science and Technology",
+    "phone": "886-3-5593142#2144",
+    "address_raw": "304001 新竹縣新豐鄉新興路1 號",
+    "postal_code": "304001",
+    "city_or_county": "新竹縣",
+    "district": "新豐鄉",
+    "region": "north",
+    "website": "http://www.must.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新竹縣",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443797+00:00",
+    "updated_at": "2026-05-13T14:57:35.443797+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Hsinchu County",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_108_致理科技大學",
+    "source_id": 108,
+    "name_zh": "致理科技大學",
+    "name_en": "Chihlee University of Technology",
+    "phone": "886-2-2257-6167#4178",
+    "address_raw": "220305 新北市板橋區文化路1 段313 號",
+    "postal_code": "220305",
+    "city_or_county": "新北市",
+    "district": "板橋區",
+    "region": "north",
+    "website": "http://www.chihlee.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443806+00:00",
+    "updated_at": "2026-05-13T14:57:35.443806+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": "Banqiao District",
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_109_文藻外語大學",
+    "source_id": 109,
+    "name_zh": "文藻外語大學",
+    "name_en": "Wenzao Ursuline University of Languages",
+    "phone": "886-7-3426031#2644",
+    "address_raw": "807771 高雄市三民區民族一路900 號",
+    "postal_code": "807771",
+    "city_or_county": "高雄市",
+    "district": "三民區",
+    "region": "south",
+    "website": "http://www.wzu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "general_or_specialized_university"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443815+00:00",
+    "updated_at": "2026-05-13T14:57:35.443815+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_110_嶺東科技大學",
+    "source_id": 110,
+    "name_zh": "嶺東科技大學",
+    "name_en": "Ling Tung University",
+    "phone": "886-4-23892088",
+    "address_raw": "408284 台中市南屯區嶺東路1 號",
+    "postal_code": "408284",
+    "city_or_county": "台中市",
+    "district": "南屯區",
+    "region": "central",
+    "website": "http://www.ltu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443825+00:00",
+    "updated_at": "2026-05-13T14:57:35.443825+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_111_龍華科技大學",
+    "source_id": 111,
+    "name_zh": "龍華科技大學",
+    "name_en": "Lunghwa University of Science and Technology",
+    "phone": "886-2-82093211#2503",
+    "address_raw": "333326 桃園市龜山區萬壽路一段300 號",
+    "postal_code": "333326",
+    "city_or_county": "桃園市",
+    "district": "龜山區",
+    "region": "north",
+    "website": "https://www.lhu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        64
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443834+00:00",
+    "updated_at": "2026-05-13T14:57:35.443834+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_112_明志科技大學",
+    "source_id": 112,
+    "name_zh": "明志科技大學",
+    "name_en": "Ming Chi University of Technology",
+    "phone": "886-2-29089899#2202",
+    "address_raw": "243303 新北市泰山區工專路84 號",
+    "postal_code": "243303",
+    "city_or_county": "新北市",
+    "district": "泰山區",
+    "region": "north",
+    "website": "https://www.mcut.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443843+00:00",
+    "updated_at": "2026-05-13T14:57:35.443843+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_113_輔英科技大學",
+    "source_id": 113,
+    "name_zh": "輔英科技大學",
+    "name_en": "Fooyin University",
+    "phone": "886-7-7811151#2402",
+    "address_raw": "831301 高雄市大寮區永芳里進學路151 號",
+    "postal_code": "831301",
+    "city_or_county": "高雄市",
+    "district": "大寮區",
+    "region": "south",
+    "website": "https://www.fy.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443852+00:00",
+    "updated_at": "2026-05-13T14:57:35.443852+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_114_中臺科技大學",
+    "source_id": 114,
+    "name_zh": "中臺科技大學",
+    "name_en": "Central Taiwan University of Science and Technology",
+    "phone": "886-4-22391647#8822",
+    "address_raw": "406053 台中市北屯區廍子路666 號",
+    "postal_code": "406053",
+    "city_or_county": "台中市",
+    "district": "北屯區",
+    "region": "central",
+    "website": "http://www.ctust.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台中市",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443861+00:00",
+    "updated_at": "2026-05-13T14:57:35.443861+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_115_吳鳳科技大學",
+    "source_id": 115,
+    "name_zh": "吳鳳科技大學",
+    "name_en": "WuFeng University",
+    "phone": "886-5-2267125#21932",
+    "address_raw": "621303 嘉義縣民雄鄉建國路二段 117 號",
+    "postal_code": "621303",
+    "city_or_county": "嘉義縣",
+    "district": "民雄鄉",
+    "region": "south",
+    "website": "http://www.wfu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "嘉義縣",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443872+00:00",
+    "updated_at": "2026-05-13T14:57:35.443872+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Chiayi County",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_116_中華醫事科技大學",
+    "source_id": 116,
+    "name_zh": "中華醫事科技大學",
+    "name_en": "Chung Hwa University of Medical Technology",
+    "phone": "886-6-2672623",
+    "address_raw": "717302 台南市仁德區文華一街89 號",
+    "postal_code": "717302",
+    "city_or_county": "台南市",
+    "district": "仁德區",
+    "region": "south",
+    "website": "https://www.hwai.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology",
+      "medical_health"
+    ],
+    "tags": [
+      "台南市",
+      "south",
+      "private_or_other",
+      "technology",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443881+00:00",
+    "updated_at": "2026-05-13T14:57:35.443881+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_117_修平學校財團法人修平科技",
+    "source_id": 117,
+    "name_zh": "修平學校財團法人修平科技大學",
+    "name_en": "Hsiuping University of Science and Technology",
+    "phone": "886-4-24961100#5013",
+    "address_raw": "412406 臺中市大里區工業路11 號",
+    "postal_code": "412406",
+    "city_or_county": "臺中市",
+    "district": "大里區",
+    "region": "central",
+    "website": "http://www.hust.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "臺中市",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443890+00:00",
+    "updated_at": "2026-05-13T14:57:35.443890+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taichung City",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_118_光宇學校財團法人元培醫事",
+    "source_id": 118,
+    "name_zh": "光宇學校財團法人元培醫事科技大學",
+    "name_en": "Yuanpei University of Medical Technology",
+    "phone": "886-3-6102212",
+    "address_raw": "300102 新竹市香山區元培街306 號",
+    "postal_code": "300102",
+    "city_or_county": "新竹市",
+    "district": "香山區",
+    "region": "north",
+    "website": "http://www.ypu.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology",
+      "medical_health"
+    ],
+    "tags": [
+      "新竹市",
+      "north",
+      "private_or_other",
+      "technology",
+      "medical_health"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443900+00:00",
+    "updated_at": "2026-05-13T14:57:35.443900+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Hsinchu City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_119_台北海洋科技大學",
+    "source_id": 119,
+    "name_zh": "台北海洋科技大學",
+    "name_en": "Taipei University of Marine Technology",
+    "phone": "886-2-28059999#1536",
+    "address_raw": "251310 新北市淡水區濱海路三段150 號",
+    "postal_code": "251310",
+    "city_or_county": "新北市",
+    "district": "淡水區",
+    "region": "north",
+    "website": "http://www.tumt.edu.tw/bin/home.php",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443910+00:00",
+    "updated_at": "2026-05-13T14:57:35.443910+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_120_崇右影藝科技大學",
+    "source_id": 120,
+    "name_zh": "崇右影藝科技大學",
+    "name_en": "Chungyu University of Film and Arts",
+    "phone": "886-2-24237785#332",
+    "address_raw": "201301 基隆市信義區義七路40 號",
+    "postal_code": "201301",
+    "city_or_county": "基隆市",
+    "district": "信義區",
+    "region": "north",
+    "website": "http://www.cufa.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology",
+      "arts"
+    ],
+    "tags": [
+      "基隆市",
+      "north",
+      "private_or_other",
+      "technology",
+      "arts"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443919+00:00",
+    "updated_at": "2026-05-13T14:57:35.443919+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Keelung City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_121_廣亞學校財團法人育達科技",
+    "source_id": 121,
+    "name_zh": "廣亞學校財團法人育達科技大學",
+    "name_en": "Yu Da University of Science and Technology",
+    "phone": "886-37-651188#8910",
+    "address_raw": "361027 苗栗縣造橋鄉談文村學府路168 號",
+    "postal_code": "361027",
+    "city_or_county": "苗栗縣",
+    "district": "造橋鄉",
+    "region": "central",
+    "website": "https://www1.ydu.edu.tw/?locale=zh_tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "苗栗縣",
+      "central",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443929+00:00",
+    "updated_at": "2026-05-13T14:57:35.443929+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Miaoli County",
+    "district_en": null,
+    "region_en": "Central Taiwan"
+  },
+  {
+    "id": "school_122_南亞科技學校財團法人南亞",
+    "source_id": 122,
+    "name_zh": "南亞科技學校財團法人南亞技術學院",
+    "name_en": "Nanya Institute of Technology",
+    "phone": "886-3-4361070#4142",
+    "address_raw": "320310 桃園市中壢區中山東路三段414 號",
+    "postal_code": "320310",
+    "city_or_county": "桃園市",
+    "district": "中壢區",
+    "region": "north",
+    "website": "http://www.nanya.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "桃園市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443939+00:00",
+    "updated_at": "2026-05-13T14:57:35.443939+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Taoyuan City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_123_東南科技大學",
+    "source_id": 123,
+    "name_zh": "東南科技大學",
+    "name_en": "Tungnan University",
+    "phone": "886-2-8662-5948#5949",
+    "address_raw": "222304 臺灣新北市深坑區北深路三段152 號",
+    "postal_code": "222304",
+    "city_or_county": "新北市",
+    "district": "深坑區",
+    "region": "north",
+    "website": "https://www.tnu.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443949+00:00",
+    "updated_at": "2026-05-13T14:57:35.443949+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_124_宏國德霖科技大學",
+    "source_id": 124,
+    "name_zh": "宏國德霖科技大學",
+    "name_en": "Hungkuo Delin University of Technology",
+    "phone": "886-2-22733657#837",
+    "address_raw": "236302 新北市土城區青雲路380 巷1 號",
+    "postal_code": "236302",
+    "city_or_county": "新北市",
+    "district": "土城區",
+    "region": "north",
+    "website": "https://www.hdut.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443960+00:00",
+    "updated_at": "2026-05-13T14:57:35.443960+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_125_中信金學校財團法人中信科",
+    "source_id": 125,
+    "name_zh": "中信金學校財團法人中信科技大學",
+    "name_en": "CTBC University of Technology",
+    "phone": "886-6-5979566#7481",
+    "address_raw": "744004 台南市新市區中華路49 號",
+    "postal_code": "744004",
+    "city_or_county": "臺南市",
+    "district": "新市區",
+    "region": null,
+    "website": "https://www.ctbctech.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "台南市新市",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443970+00:00",
+    "updated_at": "2026-05-13T14:57:35.443970+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "CTBC University of Technology",
+      "url": "https://ctbctech.edu.tw/"
+    },
+    "city_or_county_en": "Tainan City",
+    "district_en": "Xinshi District",
+    "region_en": null
+  },
+  {
+    "id": "school_126_大仁科技大學",
+    "source_id": 126,
+    "name_zh": "大仁科技大學",
+    "name_en": "Tajen University",
+    "phone": "886-8-7624002",
+    "address_raw": "907391 屏東縣鹽埔鄉新二村維新路20 號",
+    "postal_code": "907391",
+    "city_or_county": "屏東縣",
+    "district": "鹽埔鄉",
+    "region": "south",
+    "website": "https://www.tajen.edu.tw/?Lang=zh-tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "屏東縣",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443980+00:00",
+    "updated_at": "2026-05-13T14:57:35.443980+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Pingtung County",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_127_台鋼學校財團法人台鋼科技",
+    "source_id": 127,
+    "name_zh": "台鋼學校財團法人台鋼科技大學",
+    "name_en": "Taiwan Steel University of Science and Technology",
+    "phone": "886-7-6077216",
+    "address_raw": "821013 高雄市路竹區中山路1821 號",
+    "postal_code": "821013",
+    "city_or_county": "高雄市",
+    "district": "路竹區",
+    "region": "south",
+    "website": "https://www.tsust.edu.tw/",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "高雄市",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443990+00:00",
+    "updated_at": "2026-05-13T14:57:35.443990+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "Taiwan Steel University of Science and Technology",
+      "url": "https://www.tsust.edu.tw/app/index.php?Lang=en"
+    },
+    "city_or_county_en": "Kaohsiung City",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_128_美和學校財團法人美和科技",
+    "source_id": 128,
+    "name_zh": "美和學校財團法人美和科技大學",
+    "name_en": "Meiho University",
+    "phone": "886-8-7799821#8739",
+    "address_raw": "912009 屏東縣內埔鄉美和村屏光路23 號",
+    "postal_code": "912009",
+    "city_or_county": "屏東縣",
+    "district": "內埔鄉",
+    "region": "south",
+    "website": "http://www.meiho.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "屏東縣",
+      "south",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.443999+00:00",
+    "updated_at": "2026-05-13T14:57:35.443999+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "Pingtung County",
+    "district_en": null,
+    "region_en": "Southern Taiwan"
+  },
+  {
+    "id": "school_129_聖約翰科技大學",
+    "source_id": 129,
+    "name_zh": "聖約翰科技大學",
+    "name_en": "St. John’s University",
+    "phone": "886-2-28013131#6789",
+    "address_raw": "251309 新北市淡水區淡金路四段499 號",
+    "postal_code": "251309",
+    "city_or_county": "新北市",
+    "district": "淡水區",
+    "region": "north",
+    "website": "http://www.sju.edu.tw",
+    "school_category": [
+      "private_or_other",
+      "technology"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "private_or_other",
+      "technology"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.444008+00:00",
+    "updated_at": "2026-05-13T14:57:35.444008+00:00",
+    "name_en_source": {
+      "source_type": "official_open_data",
+      "title": "全國大學校院及校長名錄",
+      "publisher": "教育部高等教育司",
+      "url": "https://data.gov.tw/dataset/27929"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  },
+  {
+    "id": "school_130_國立臺灣師範大學僑生先修",
+    "source_id": 130,
+    "name_zh": "國立臺灣師範大學僑生先修部",
+    "name_en": "Academy of Preparatory Programs for Overseas Compatriot Students, National Taiwan Normal University",
+    "phone": "886-2-77498267",
+    "address_raw": "244014 新北市林口區仁愛路一段2 號",
+    "postal_code": "244014",
+    "city_or_county": "新北市",
+    "district": "林口區",
+    "region": "north",
+    "website": "https://www.nups.ntnu.edu.tw",
+    "school_category": [
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "tags": [
+      "新北市",
+      "north",
+      "public",
+      "general_or_specialized_university",
+      "education"
+    ],
+    "source": {
+      "document": "海外聯合招生委員會 僑生來臺就讀大學校院學士班.pdf",
+      "section": "附錄四 115學年度海外聯合招生委員學校通訊錄",
+      "pdf_pages": [
+        65
+      ],
+      "source_type": "pdf"
+    },
+    "created_at": "2026-05-13T14:57:35.444018+00:00",
+    "updated_at": "2026-05-13T14:57:35.444018+00:00",
+    "name_en_source": {
+      "source_type": "official_website",
+      "title": "Academy of Preparatory Programs for Overseas Compatriot Students, National Taiwan Normal University",
+      "url": "https://www.nups.ntnu.edu.tw/about"
+    },
+    "city_or_county_en": "New Taipei City",
+    "district_en": null,
+    "region_en": "Northern Taiwan"
+  }
+]

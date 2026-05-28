@@ -69,9 +69,22 @@ a {
 }
 
 .app-shell {
+  position: relative;
   display: grid;
   min-height: 100vh;
   grid-template-columns: 260px minmax(0, 1fr);
+}
+
+.app-shell::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 260px;
+  border-right: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.86);
+  content: "";
+  pointer-events: none;
 }
 
 .auth-gate {
@@ -173,14 +186,20 @@ a {
 .side-nav {
   position: sticky;
   top: 0;
+  z-index: 1;
   display: flex;
+  align-self: start;
   height: 100vh;
   flex-direction: column;
   gap: 24px;
   padding: 22px;
-  border-right: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.86);
+  background: transparent;
   backdrop-filter: blur(10px);
+}
+
+.main-area {
+  position: relative;
+  z-index: 1;
 }
 
 .brand-block {
@@ -453,7 +472,7 @@ h3 {
 }
 
 .explorer-layout {
-  grid-template-columns: 300px minmax(280px, 0.85fr) minmax(460px, 1.15fr);
+  grid-template-columns: 300px minmax(0, 1fr);
   align-items: start;
 }
 
@@ -724,7 +743,37 @@ textarea:focus {
 }
 
 .profile-panel {
-  overflow: visible;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  width: min(620px, calc(100vw - 280px));
+  overflow: auto;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 0;
+  box-shadow: -18px 0 42px rgba(35, 50, 43, 0.14);
+}
+
+.profile-panel[hidden] {
+  display: none;
+}
+
+.profile-drawer-heading {
+  position: sticky;
+  top: -18px;
+  z-index: 2;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: -18px -18px 16px;
+  border-bottom: 1px solid var(--line);
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
 }
 
 .profile-block {
@@ -1279,11 +1328,16 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
+  .app-shell::before {
+    display: none;
+  }
+
   .side-nav {
     position: static;
     height: auto;
     border-right: 0;
     border-bottom: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.86);
   }
 
   .nav-list {
@@ -1312,11 +1366,14 @@ textarea:focus {
     min-width: 560px;
   }
 
-  .profile-panel,
   .admissions-toc {
     position: static;
     grid-column: 1 / -1;
     max-height: none;
+  }
+
+  .profile-panel {
+    width: min(560px, calc(100vw - 240px));
   }
 }
 
@@ -1500,6 +1557,20 @@ textarea:focus {
   .profile-panel,
   .admissions-toc {
     position: static;
+  }
+
+  .profile-panel {
+    width: 100%;
+    overflow: visible;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+
+  .profile-drawer-heading {
+    position: static;
+    margin: -14px -14px 14px;
+    padding: 14px;
   }
 
   .filters-panel {

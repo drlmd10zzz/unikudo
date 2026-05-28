@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const APP_VERSION = "20260528-school-scroll-1";
+const APP_VERSION = "20260528-profile-drawer-1";
 const DATASET_ROOT = new URL("../dataset/", window.location.href);
 const CONFIG_ENDPOINT = "/api/config";
 const SUPABASE_MISSING_MESSAGE =
@@ -88,6 +88,7 @@ const state = {
   programsById: new Map(),
   searchableSchools: [],
   selectedSchoolId: null,
+  profileOpen: false,
   currentView: "explorer",
   checklistDone: new Set(),
   currentChecklist: null,
@@ -653,12 +654,16 @@ function renderSchools() {
 
   if (!schools.length) {
     qs("#school-list").innerHTML = `<div class="no-results">No matching schools. Try clearing one filter.</div>`;
+    state.selectedSchoolId = null;
+    state.profileOpen = false;
     renderProfile(null);
     return;
   }
 
-  if (!schools.some((school) => school.id === state.selectedSchoolId)) {
-    state.selectedSchoolId = schools[0].id;
+  const selectedVisible = schools.some((school) => school.id === state.selectedSchoolId);
+  if (!selectedVisible) {
+    state.selectedSchoolId = null;
+    state.profileOpen = false;
   }
 
   qs("#school-list").innerHTML = schools
@@ -669,15 +674,15 @@ function renderSchools() {
   qsa(".school-card").forEach((card) => {
     card.addEventListener("click", () => {
       state.selectedSchoolId = card.dataset.schoolId;
+      state.profileOpen = true;
       renderSchools();
-      renderProfile(getSchoolById(state.selectedSchoolId));
       if (window.matchMedia("(max-width: 820px)").matches) {
         qs("#school-profile")?.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     });
   });
 
-  renderProfile(getSchoolById(state.selectedSchoolId));
+  renderProfile(state.profileOpen ? getSchoolById(state.selectedSchoolId) : null);
 }
 
 function renderSchoolCard(school) {
@@ -715,17 +720,24 @@ function programEnglishName(program) {
   return program.department_name_en || "English translation not loaded. Refresh the page.";
 }
 
+function closeProfile() {
+  state.profileOpen = false;
+  state.selectedSchoolId = null;
+  qsa(".school-card").forEach((card) => card.classList.remove("is-selected"));
+  renderProfile(null);
+}
+
 function renderProfile(school) {
   const profile = qs("#school-profile");
-  if (!school) {
-    profile.innerHTML = `
-      <div class="empty-state">
-        <h2>Select a school</h2>
-        <p>Profiles show contact details, source pages, and extracted program coverage.</p>
-      </div>
-    `;
+  if (!school || !state.profileOpen) {
+    profile.hidden = true;
+    profile.classList.remove("is-open");
+    profile.innerHTML = "";
     return;
   }
+
+  profile.hidden = false;
+  profile.classList.add("is-open");
 
   const programs = state.programsBySchool.get(school.id) || [];
   const trackRows = Object.entries(school.program_count_by_application_system || {});
@@ -736,6 +748,13 @@ function renderProfile(school) {
     : escapeHtml(school.name_en_source?.title || "Unavailable");
 
   profile.innerHTML = `
+    <div class="profile-drawer-heading">
+      <div>
+        <p class="section-kicker">Selected school</p>
+        <h2>School profile</h2>
+      </div>
+      <button class="icon-button" id="profile-close-button" type="button" title="Close school profile">X</button>
+    </div>
     <div class="profile-block">
       <div class="profile-title">
         <div class="badge-list">
@@ -796,6 +815,8 @@ function renderProfile(school) {
       </div>
     </div>
   `;
+
+  qs("#profile-close-button")?.addEventListener("click", closeProfile);
 }
 
 function bindChecklist() {

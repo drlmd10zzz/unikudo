@@ -1,8 +1,12 @@
-const APP_VERSION = "20260528-checklist-save-1";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+const APP_VERSION = "20260528-supabase-1";
 const DATASET_ROOT = new URL("../dataset/", window.location.href);
-const AUTH_USERS_KEY = "unikudo_users_v1";
-const AUTH_SESSION_KEY = "unikudo_session_v1";
-const SAVED_CHECKLISTS_KEY = "unikudo_saved_checklists_v1";
+const CONFIG_ENDPOINT = "/api/config";
+const SUPABASE_MISSING_MESSAGE =
+  "Supabase is not configured yet. Add SUPABASE_URL and SUPABASE_ANON_KEY in Vercel, then redeploy.";
+
+let supabase = null;
 
 const regionLabels = {
   north: "North",
@@ -88,8 +92,11 @@ const state = {
   checklistDone: new Set(),
   currentChecklist: null,
   activeSavedChecklistId: null,
+  savedChecklists: [],
+  savedChecklistsLoading: false,
   authMode: "register",
   currentUser: null,
+  supabaseReady: false,
 };
 
 const qs = (selector) => document.querySelector(selector);
@@ -152,7 +159,8 @@ async function fetchJson(filename) {
 
 async function init() {
   bindAuth();
-  state.currentUser = loadCurrentUser();
+  await configureSupabase();
+  await restoreSupabaseSession();
   renderAuthState();
 
   try {
@@ -202,6 +210,55 @@ async function init() {
   }
 }
 
+async function configureSupabase() {
+  const config = await loadRuntimeConfig();
+  const supabaseUrl = String(config.supabaseUrl || config.SUPABASE_URL || "").trim();
+  const supabaseAnonKey = String(config.supabaseAnonKey || config.SUPABASE_ANON_KEY || "").trim();
+
+  state.supabaseReady = Boolean(supabaseUrl && supabaseAnonKey);
+  if (!state.supabaseReady) return;
+
+  supabase = createClient(supabaseUrl, supabaseAnonKey, {
+    auth: {
+      persistSession: true,
+      autoRefreshToken: true,
+      detectSessionInUrl: true,
+    },
+  });
+
+  supabase.auth.onAuthStateChange((_event, session) => {
+    void applySupabaseSession(session).catch((error) => {
+      setAuthMessage(`Supabase account setup failed: ${error.message}`, "error");
+    });
+  });
+}
+
+async function loadRuntimeConfig() {
+  if (window.UNIKUDO_SUPABASE_CONFIG) return window.UNIKUDO_SUPABASE_CONFIG;
+
+  try {
+    const response = await fetch(CONFIG_ENDPOINT, { cache: "no-store" });
+    if (!response.ok) return {};
+    return response.json();
+  } catch {
+    return {};
+  }
+}
+
+async function restoreSupabaseSession() {
+  if (!supabase) return;
+  const { data, error } = await supabase.auth.getSession();
+  if (error) {
+    setAuthMessage(error.message, "error");
+    return;
+  }
+  try {
+    await applySupabaseSession(data.session);
+  } catch (profileError) {
+    setAuthMessage(`Supabase account setup failed: ${profileError.message}`, "error");
+  }
+}
+
 function bindAuth() {
   qsa(".auth-tab").forEach((button) => {
     button.addEventListener("click", () => setAuthMode(button.dataset.authMode));
@@ -220,12 +277,9 @@ function bindAuth() {
     qs("#account-panel").hidden = true;
   });
 
-  qs("#sign-out-button").addEventListener("click", () => {
-    localStorage.removeItem(AUTH_SESSION_KEY);
-    state.currentUser = null;
-    state.currentChecklist = null;
-    state.activeSavedChecklistId = null;
-    state.checklistDone.clear();
+  qs("#sign-out-button").addEventListener("click", async () => {
+    if (supabase) await supabase.auth.signOut();
+    clearSignedInState();
     qs("#account-panel").hidden = true;
     renderAuthState("Signed out.");
   });
@@ -239,13 +293,20 @@ function setAuthMode(mode) {
   qs("#auth-name-field").style.display = state.authMode === "register" ? "grid" : "none";
   qs("#auth-submit").textContent = state.authMode === "register" ? "Create account" : "Sign in";
   qs("#auth-password").autocomplete = state.authMode === "register" ? "new-password" : "current-password";
-  setAuthMessage("");
+  if (state.supabaseReady) setAuthMessage("");
+  else setAuthMessage(SUPABASE_MISSING_MESSAGE, "error");
 }
 
 async function handleAuthSubmit(formData) {
   const name = String(formData.get("name") || "").trim();
   const email = String(formData.get("email") || "").trim().toLowerCase();
   const password = String(formData.get("password") || "");
+  const submitButton = qs("#auth-submit");
+
+  if (!supabase) {
+    setAuthMessage(SUPABASE_MISSING_MESSAGE, "error");
+    return;
+  }
 
   if (!email || !password) {
     setAuthMessage("Email and password are required.", "error");
@@ -256,59 +317,46 @@ async function handleAuthSubmit(formData) {
     return;
   }
 
-  const users = getStoredUsers();
-  const existingUser = users.find((user) => user.email === email);
+  submitButton.disabled = true;
 
-  if (state.authMode === "register") {
-    if (!name) {
-      setAuthMessage("Full name is required.", "error");
+  try {
+    if (state.authMode === "register") {
+      if (!name) {
+        setAuthMessage("Full name is required.", "error");
+        return;
+      }
+
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: { full_name: name },
+          emailRedirectTo: new URL("/prototype/", window.location.origin).href,
+        },
+      });
+      if (error) throw error;
+
+      if (data.session) {
+        await applySupabaseSession(data.session, { fullName: name });
+        qs("#auth-form").reset();
+        setAuthMessage("Account created and signed in.", "success");
+      } else {
+        setAuthMessage("Account created. Check your email to confirm before signing in.", "success");
+      }
       return;
     }
-    if (existingUser) {
-      setAuthMessage("An account with this email already exists. Sign in instead.", "error");
-      return;
-    }
 
-    const salt = createSalt();
-    const passwordHash = await hashPassword(password, salt);
-    const user = {
-      id: crypto.randomUUID ? crypto.randomUUID() : `user_${Date.now()}`,
-      name,
-      email,
-      salt,
-      passwordHash,
-      createdAt: new Date().toISOString(),
-    };
-    users.push(user);
-    saveStoredUsers(users);
-    startSession(user);
-    setAuthMessage("Account created.", "success");
-    return;
+    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) throw error;
+
+    await applySupabaseSession(data.session);
+    qs("#auth-form").reset();
+    setAuthMessage("Signed in.", "success");
+  } catch (error) {
+    setAuthMessage(error.message || "Authentication failed.", "error");
+  } finally {
+    submitButton.disabled = !state.supabaseReady;
   }
-
-  if (!existingUser) {
-    setAuthMessage("No account found for that email.", "error");
-    return;
-  }
-
-  const attemptedHash = await hashPassword(password, existingUser.salt);
-  if (attemptedHash !== existingUser.passwordHash) {
-    setAuthMessage("Password is incorrect.", "error");
-    return;
-  }
-
-  startSession(existingUser);
-  setAuthMessage("Signed in.", "success");
-}
-
-function startSession(user) {
-  localStorage.setItem(
-    AUTH_SESSION_KEY,
-    JSON.stringify({ userId: user.id, email: user.email, signedInAt: new Date().toISOString() }),
-  );
-  state.currentUser = publicUser(user);
-  qs("#auth-form").reset();
-  renderAuthState();
 }
 
 function renderAuthState(message = "") {
@@ -321,10 +369,15 @@ function renderAuthState(message = "") {
     qs("#account-button").textContent = "My account";
     qs("#account-name").textContent = user.name;
     qs("#account-email").textContent = user.email;
+    qs("#account-type").textContent = "Supabase account";
+    qs("#account-storage-note").textContent =
+      "Your account is managed by Supabase Auth. Saved checklists are stored in the UniKudo Supabase database.";
     renderSavedChecklists();
   } else {
     setAuthMode(state.authMode);
-    if (message) setAuthMessage(message, "success");
+    setAuthControlsEnabled(state.supabaseReady);
+    if (!state.supabaseReady) setAuthMessage(SUPABASE_MISSING_MESSAGE, "error");
+    else if (message) setAuthMessage(message, "success");
   }
 }
 
@@ -335,58 +388,75 @@ function setAuthMessage(message, type = "") {
   element.classList.toggle("success", type === "success");
 }
 
-function getStoredUsers() {
-  try {
-    const users = JSON.parse(localStorage.getItem(AUTH_USERS_KEY) || "[]");
-    return Array.isArray(users) ? users : [];
-  } catch {
-    return [];
+function setAuthControlsEnabled(enabled) {
+  qsa("#auth-form input, #auth-submit").forEach((element) => {
+    element.disabled = !enabled;
+  });
+}
+
+async function applySupabaseSession(session, options = {}) {
+  if (!session?.user) {
+    clearSignedInState();
+    renderAuthState();
+    return;
   }
+
+  state.currentUser = await getOrCreateProfile(session.user, options.fullName);
+  await refreshSavedChecklists();
+  renderAuthState();
 }
 
-function saveStoredUsers(users) {
-  localStorage.setItem(AUTH_USERS_KEY, JSON.stringify(users));
+function clearSignedInState() {
+  state.currentUser = null;
+  state.savedChecklists = [];
+  state.currentChecklist = null;
+  state.activeSavedChecklistId = null;
+  state.checklistDone.clear();
 }
 
-function loadCurrentUser() {
-  try {
-    const session = JSON.parse(localStorage.getItem(AUTH_SESSION_KEY) || "null");
-    if (!session?.userId) return null;
-    const user = getStoredUsers().find((item) => item.id === session.userId);
-    return user ? publicUser(user) : null;
-  } catch {
-    return null;
+async function getOrCreateProfile(user, fullName = "") {
+  const fallbackName = fullName || user.user_metadata?.full_name || user.email?.split("@")[0] || "UniKudo user";
+  const profile = await fetchProfile(user.id);
+
+  if (profile) {
+    if (fullName && profile.full_name !== fullName) {
+      const updated = await upsertProfile(user.id, fullName);
+      return profileToUser(user, updated || profile);
+    }
+    return profileToUser(user, profile);
   }
+
+  const inserted = await upsertProfile(user.id, fallbackName);
+  return profileToUser(user, inserted || { full_name: fallbackName, created_at: user.created_at });
 }
 
-function publicUser(user) {
+async function fetchProfile(userId) {
+  const { data, error } = await supabase
+    .from("profiles")
+    .select("id, full_name, created_at")
+    .eq("id", userId)
+    .maybeSingle();
+  if (error) throw error;
+  return data;
+}
+
+async function upsertProfile(userId, fullName) {
+  const { data, error } = await supabase
+    .from("profiles")
+    .upsert({ id: userId, full_name: fullName }, { onConflict: "id" })
+    .select("id, full_name, created_at")
+    .single();
+  if (error) throw error;
+  return data;
+}
+
+function profileToUser(user, profile) {
   return {
     id: user.id,
-    name: user.name,
+    name: profile.full_name || user.user_metadata?.full_name || user.email?.split("@")[0] || "UniKudo user",
     email: user.email,
-    createdAt: user.createdAt,
+    createdAt: profile.created_at || user.created_at,
   };
-}
-
-function createSalt() {
-  const bytes = new Uint8Array(16);
-  crypto.getRandomValues(bytes);
-  return bytesToHex(bytes);
-}
-
-async function hashPassword(password, salt) {
-  if (!crypto.subtle) {
-    throw new Error("Secure password hashing is unavailable in this browser context.");
-  }
-  const data = new TextEncoder().encode(`${salt}:${password}`);
-  const digest = await crypto.subtle.digest("SHA-256", data);
-  return bytesToHex(new Uint8Array(digest));
-}
-
-function bytesToHex(bytes) {
-  return Array.from(bytes)
-    .map((byte) => byte.toString(16).padStart(2, "0"))
-    .join("");
 }
 
 function buildIndexes() {
@@ -735,7 +805,7 @@ function bindChecklist() {
   });
 
   qs("#save-checklist").addEventListener("click", () => {
-    saveCurrentChecklist();
+    void saveCurrentChecklist();
   });
 
   qs("#saved-checklists").addEventListener("click", (event) => {
@@ -743,7 +813,7 @@ function bindChecklist() {
     if (!button) return;
     const id = button.dataset.checklistId;
     if (button.dataset.checklistAction === "load") loadSavedChecklist(id);
-    if (button.dataset.checklistAction === "delete") deleteSavedChecklist(id);
+    if (button.dataset.checklistAction === "delete") void deleteSavedChecklist(id);
   });
 }
 
@@ -943,60 +1013,90 @@ function getChecklistTitle(input) {
   return `${input.targetYear} · ${humanize(input.applicationPath)} · ${humanize(input.currentStage)}`;
 }
 
-function getChecklistStore() {
-  try {
-    const store = JSON.parse(localStorage.getItem(SAVED_CHECKLISTS_KEY) || "{}");
-    return store && typeof store === "object" && !Array.isArray(store) ? store : {};
-  } catch {
-    return {};
-  }
-}
-
-function saveChecklistStore(store) {
-  localStorage.setItem(SAVED_CHECKLISTS_KEY, JSON.stringify(store));
-}
-
 function getUserChecklists() {
-  if (!state.currentUser) return [];
-  const store = getChecklistStore();
-  return Array.isArray(store[state.currentUser.id]) ? store[state.currentUser.id] : [];
+  return state.currentUser ? state.savedChecklists : [];
 }
 
-function setUserChecklists(checklists) {
-  if (!state.currentUser) return;
-  const store = getChecklistStore();
-  store[state.currentUser.id] = checklists;
-  saveChecklistStore(store);
+async function refreshSavedChecklists() {
+  if (!state.currentUser || !supabase) {
+    state.savedChecklists = [];
+    renderSavedChecklists();
+    return;
+  }
+
+  state.savedChecklistsLoading = true;
+  renderSavedChecklists();
+
+  const { data, error } = await supabase
+    .from("saved_checklists")
+    .select("id, title, input, sections, completed_item_ids, created_at, updated_at")
+    .order("updated_at", { ascending: false });
+
+  state.savedChecklistsLoading = false;
+  if (error) {
+    state.savedChecklists = [];
+    renderSavedChecklists();
+    showChecklistMessage(`Could not load saved checklists: ${error.message}`, "error");
+    return;
+  }
+
+  state.savedChecklists = (data || []).map(rowToChecklist);
+  renderSavedChecklists();
 }
 
-function saveCurrentChecklist() {
-  if (!state.currentUser) return;
+async function saveCurrentChecklist(options = {}) {
+  if (!state.currentUser) {
+    showChecklistMessage("Sign in before saving a checklist.", "error");
+    return;
+  }
+  if (!supabase) {
+    showChecklistMessage(SUPABASE_MISSING_MESSAGE, "error");
+    return;
+  }
   if (!state.currentChecklist) renderDefaultChecklist();
 
-  const now = new Date().toISOString();
   const snapshot = {
-    id: state.activeSavedChecklistId || `checklist_${Date.now()}`,
+    id: state.activeSavedChecklistId || createChecklistId(),
     title: getChecklistTitle(state.currentChecklist.input),
     input: state.currentChecklist.input,
     sections: state.currentChecklist.sections,
     completedItemIds: [...state.checklistDone],
-    createdAt: now,
-    updatedAt: now,
   };
 
-  const checklists = getUserChecklists();
-  const existingIndex = checklists.findIndex((item) => item.id === snapshot.id);
-  if (existingIndex >= 0) {
-    snapshot.createdAt = checklists[existingIndex].createdAt || now;
-    checklists[existingIndex] = snapshot;
-  } else {
-    checklists.unshift(snapshot);
+  const { data, error } = await supabase
+    .from("saved_checklists")
+    .upsert(
+      {
+        id: snapshot.id,
+        user_id: state.currentUser.id,
+        title: snapshot.title,
+        input: snapshot.input,
+        sections: snapshot.sections,
+        completed_item_ids: snapshot.completedItemIds,
+      },
+      { onConflict: "id" },
+    )
+    .select("id, title, input, sections, completed_item_ids, created_at, updated_at")
+    .single();
+
+  if (error) {
+    showChecklistMessage(`Checklist could not be saved: ${error.message}`, "error");
+    return;
   }
 
-  setUserChecklists(checklists);
-  state.activeSavedChecklistId = snapshot.id;
+  const saved = rowToChecklist(data);
+  const checklists = [...state.savedChecklists];
+  const existingIndex = checklists.findIndex((item) => item.id === saved.id);
+  if (existingIndex >= 0) {
+    checklists[existingIndex] = saved;
+  } else {
+    checklists.unshift(saved);
+  }
+
+  state.savedChecklists = checklists.sort((a, b) => new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0));
+  state.activeSavedChecklistId = saved.id;
   renderSavedChecklists();
-  showChecklistMessage("Checklist saved to your account.");
+  if (!options.silent) showChecklistMessage("Checklist saved to your account.");
 }
 
 function loadSavedChecklist(id) {
@@ -1009,12 +1109,40 @@ function loadSavedChecklist(id) {
   showChecklistMessage("Saved checklist loaded.");
 }
 
-function deleteSavedChecklist(id) {
-  const checklists = getUserChecklists().filter((item) => item.id !== id);
-  setUserChecklists(checklists);
+async function deleteSavedChecklist(id) {
+  if (!state.currentUser || !supabase) return;
+  const { error } = await supabase.from("saved_checklists").delete().eq("id", id);
+  if (error) {
+    showChecklistMessage(`Checklist could not be deleted: ${error.message}`, "error");
+    return;
+  }
+
+  state.savedChecklists = getUserChecklists().filter((item) => item.id !== id);
   if (state.activeSavedChecklistId === id) state.activeSavedChecklistId = null;
   renderSavedChecklists();
   showChecklistMessage("Saved checklist deleted.");
+}
+
+function rowToChecklist(row) {
+  return {
+    id: row.id,
+    title: row.title,
+    input: row.input || {},
+    sections: row.sections || [],
+    completedItemIds: Array.isArray(row.completed_item_ids) ? row.completed_item_ids : [],
+    createdAt: row.created_at,
+    updatedAt: row.updated_at,
+  };
+}
+
+function createChecklistId() {
+  if (crypto.randomUUID) return crypto.randomUUID();
+  const bytes = new Uint8Array(16);
+  crypto.getRandomValues(bytes);
+  bytes[6] = (bytes[6] & 0x0f) | 0x40;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+  const hex = Array.from(bytes, (byte) => byte.toString(16).padStart(2, "0")).join("");
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
 }
 
 function applyChecklistInput(input) {
@@ -1033,6 +1161,17 @@ function renderSavedChecklists() {
   if (!list || !count) return;
 
   const checklists = getUserChecklists();
+  if (!state.currentUser) {
+    count.textContent = "Sign in required";
+    list.innerHTML = `<p class="source-meta">Sign in to save checklists to your UniKudo account.</p>`;
+    return;
+  }
+  if (state.savedChecklistsLoading) {
+    count.textContent = "Loading";
+    list.innerHTML = `<p class="source-meta">Loading saved checklists...</p>`;
+    return;
+  }
+
   count.textContent = `${checklists.length} saved`;
   list.innerHTML = checklists.length
     ? checklists
@@ -1064,11 +1203,11 @@ function formatSavedDate(value) {
   }).format(new Date(value));
 }
 
-function showChecklistMessage(message) {
+function showChecklistMessage(message, type = "") {
   const output = qs("#checklist-output");
   const existing = output.querySelector(".checklist-message");
   if (existing) existing.remove();
-  output.insertAdjacentHTML("afterbegin", `<p class="checklist-message">${escapeHtml(message)}</p>`);
+  output.insertAdjacentHTML("afterbegin", `<p class="checklist-message ${escapeHtml(type)}">${escapeHtml(message)}</p>`);
 }
 
 function buildChecklist(input) {
@@ -1183,7 +1322,7 @@ function renderChecklist(sections, input) {
       if (checkbox.checked) state.checklistDone.add(id);
       else state.checklistDone.delete(id);
       checkbox.closest(".checklist-item").classList.toggle("done", checkbox.checked);
-      if (state.activeSavedChecklistId) saveCurrentChecklist();
+      if (state.activeSavedChecklistId) void saveCurrentChecklist({ silent: true });
     });
   });
 }

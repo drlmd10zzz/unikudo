@@ -9,7 +9,7 @@ The current prototype is a static web app that includes:
 - Checklist generator with per-account saved checklists.
 - Prototype Admissions Q&A.
 - Prototype Portal Helper.
-- Local prototype registration/sign-in.
+- Supabase registration/sign-in.
 
 ## Run Locally
 
@@ -25,16 +25,20 @@ Open:
 http://localhost:8000/prototype/
 ```
 
-## Prototype Auth
+The static local server can load the explorer and datasets. Supabase auth requires either a Vercel deployment with environment variables or a local runtime that serves `/api/config`.
 
-The current account system is for demo purposes only.
+## Supabase
 
-- Accounts are stored in the browser's `localStorage`.
-- Passwords are hashed with WebCrypto before local storage.
-- Saved checklists are scoped to the signed-in local prototype account.
-- Do not treat this as production authentication.
+UniKudo uses Supabase Auth for email/password accounts and a `saved_checklists` table for account-backed checklist saves.
 
-Before a public launch, replace this with production auth such as Supabase Auth, Clerk, Auth.js, Firebase Auth, or another server-backed provider.
+Setup:
+
+1. Create a Supabase project.
+2. In the Supabase SQL Editor, run `supabase/schema.sql`.
+3. In Authentication settings, add the deployed Vercel URL to allowed redirect URLs.
+4. Copy the Project URL and anon public key.
+
+Never use the Supabase service role key in the browser or in Vercel public config.
 
 ## Deploy on Vercel
 
@@ -47,4 +51,9 @@ Recommended Vercel settings:
 - Output Directory: leave empty
 - Install Command: leave empty
 
-No `.env` file is required for the current static prototype. Do not commit user credentials or API keys.
+Environment variables:
+
+- `SUPABASE_URL`
+- `SUPABASE_ANON_KEY`
+
+Do not commit `.env` files, service role keys, GitHub tokens, Vercel tokens, or user credentials.

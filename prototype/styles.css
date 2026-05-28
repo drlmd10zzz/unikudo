@@ -152,6 +152,12 @@ a {
   gap: 12px;
 }
 
+.auth-form input:disabled,
+.auth-form button:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
+}
+
 .side-nav {
   position: sticky;
   top: 0;
@@ -861,6 +867,13 @@ textarea:focus {
   color: var(--green);
   font-size: 0.84rem;
   font-weight: 760;
+}
+
+.checklist-message.error {
+  border-color: var(--red-soft);
+  border-left-color: var(--red);
+  background: #fffafa;
+  color: var(--red);
 }
 
 .checklist-section {

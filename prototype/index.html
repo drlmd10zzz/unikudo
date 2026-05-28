@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>UniKudo</title>
-    <link rel="stylesheet" href="/prototype/styles.css?v=20260528-deploy-path-1" />
+    <link rel="stylesheet" href="/prototype/styles.css?v=20260528-supabase-1" />
   </head>
   <body>
     <section class="auth-gate" id="auth-gate" aria-labelledby="auth-title">
@@ -22,7 +22,7 @@
         <div>
           <p class="eyebrow brand-eyebrow">Private prototype</p>
           <h1 id="auth-title">Create an account or sign in</h1>
-          <p class="auth-copy">Save your prototype session locally and access the school explorer, must reads, checklist, Q&A, and portal helper.</p>
+          <p class="auth-copy">Create a UniKudo account and save admissions checklists securely with Supabase.</p>
         </div>
 
         <div class="auth-tabs" role="tablist" aria-label="Authentication mode">
@@ -47,7 +47,7 @@
           <p class="auth-message" id="auth-message" role="status"></p>
         </form>
 
-        <p class="auth-disclaimer">Prototype auth stores credentials in this browser only. Use production auth before public launch.</p>
+        <p class="auth-disclaimer">Authentication is handled by Supabase. Do not reuse sensitive school, bank, or government portal passwords.</p>
       </div>
     </section>
 
@@ -120,9 +120,9 @@
             <div class="detail-grid">
               <div class="detail-row"><strong>Name</strong><span id="account-name">-</span></div>
               <div class="detail-row"><strong>Email</strong><span id="account-email">-</span></div>
-              <div class="detail-row"><strong>Account type</strong><span>Local prototype account</span></div>
+              <div class="detail-row"><strong>Account type</strong><span id="account-type">Supabase account</span></div>
             </div>
-            <p class="source-meta">This account exists only in this browser. Production deployment should use server-side authentication.</p>
+            <p class="source-meta" id="account-storage-note">Your account is managed by Supabase Auth. Saved checklists are stored in the UniKudo Supabase database.</p>
           </div>
         </section>
 
@@ -415,6 +415,6 @@
       </main>
     </div>
 
-    <script src="/prototype/app.js?v=20260528-deploy-path-1"></script>
+    <script type="module" src="/prototype/app.js?v=20260528-supabase-1"></script>
   </body>
 </html>

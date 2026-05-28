@@ -12,14 +12,14 @@ Open:
 http://localhost:8000/prototype/
 ```
 
-The prototype is dependency-free and loads local files from `dataset/`.
+The prototype loads local files from `dataset/` and uses Supabase Auth when deployed with Supabase environment variables.
 
 Account flow:
 
-- Registration and sign-in are implemented as local prototype auth.
-- Users are stored in this browser's `localStorage` with WebCrypto password hashing.
-- Generated checklists can be saved, loaded, and deleted per signed-in prototype account.
-- Replace this with production auth before launch, such as Supabase Auth, Clerk, Auth.js, or a server-backed Vercel flow.
+- Registration and sign-in are handled by Supabase Auth.
+- Saved checklists are stored in the `saved_checklists` Supabase table.
+- Row-level security restricts checklist rows to the signed-in user.
+- Vercel serves `/api/config`, which reads `SUPABASE_URL` and `SUPABASE_ANON_KEY` from environment variables.
 
 Implemented surfaces:
 

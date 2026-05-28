@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const APP_VERSION = "20260528-supabase-1";
+const APP_VERSION = "20260528-mobile-1";
 const DATASET_ROOT = new URL("../dataset/", window.location.href);
 const CONFIG_ENDPOINT = "/api/config";
 const SUPABASE_MISSING_MESSAGE =
@@ -663,6 +663,9 @@ function renderSchools() {
       state.selectedSchoolId = card.dataset.schoolId;
       renderSchools();
       renderProfile(getSchoolById(state.selectedSchoolId));
+      if (window.matchMedia("(max-width: 820px)").matches) {
+        qs("#school-profile")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     });
   });
 

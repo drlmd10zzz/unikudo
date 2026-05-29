@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const APP_VERSION = "20260528-profile-drawer-1";
+const APP_VERSION = "20260529-city-filter-1";
 const DATASET_ROOT = new URL("../dataset/", window.location.href);
 const CONFIG_ENDPOINT = "/api/config";
 const SUPABASE_MISSING_MESSAGE =
@@ -128,10 +128,14 @@ function labelForTrack(track) {
   return trackLabels[track] || track.replaceAll("_", " ");
 }
 
-function cityLabel(cityZh) {
-  const school = state.schools.find((item) => item.city_or_county === cityZh);
-  const cityEn = school?.city_or_county_en;
-  return cityEn ? `${cityEn} / ${cityZh}` : cityZh;
+function cityFilterValue(school) {
+  return school.city_or_county_en || school.city_or_county || "";
+}
+
+function cityLabel(cityValue) {
+  const schools = state.schools.filter((item) => cityFilterValue(item) === cityValue);
+  const zhNames = uniqueSorted(schools.map((school) => school.city_or_county).filter(Boolean));
+  return zhNames.length ? `${cityValue} / ${zhNames.join("、")}` : cityValue;
 }
 
 function schoolDisplayName(school) {
@@ -545,7 +549,7 @@ function switchView(view) {
 
 function populateFilters() {
   const regions = uniqueSorted(state.schools.map((school) => school.region || "unknown"));
-  const cities = uniqueSorted(state.schools.map((school) => school.city_or_county).filter(Boolean));
+  const cities = uniqueSorted(state.schools.map(cityFilterValue).filter(Boolean));
   const categories = uniqueSorted(
     state.schools.flatMap((school) => school.school_category || []),
   );
@@ -588,7 +592,7 @@ function filterSchools(filters = currentSchoolFilters()) {
   return state.searchableSchools.filter((school) => {
     const region = school.region || "unknown";
     if (filters.region && region !== filters.region) return false;
-    if (filters.city && school.city_or_county !== filters.city) return false;
+    if (filters.city && cityFilterValue(school) !== filters.city) return false;
     if (filters.category && !(school.school_category || []).includes(filters.category)) return false;
     if (filters.track) {
       const trackCount = school.program_count_by_application_system?.[filters.track] || 0;
@@ -615,7 +619,7 @@ function matchesQuery(school, query) {
 }
 
 function renderStats() {
-  const cities = new Set(state.schools.map((school) => school.city_or_county).filter(Boolean));
+  const cities = new Set(state.schools.map(cityFilterValue).filter(Boolean));
   qs("#metric-schools").textContent = formatCount(state.schools.length);
   qs("#metric-programs").textContent = formatCount(state.programs.length);
   qs("#metric-cities").textContent = formatCount(cities.size);
@@ -1533,27 +1537,28 @@ function answerQuestion(message) {
 
 function detectCity(query) {
   const map = [
-    ["new taipei", "新北市"],
-    ["taipei", "臺北市"],
-    ["kaohsiung", "高雄市"],
-    ["taichung", "臺中市"],
-    ["tainan", "臺南市"],
-    ["taoyuan", "桃園市"],
-    ["hsinchu", "新竹市"],
-    ["keelung", "基隆市"],
-    ["chiayi", "嘉義市"],
-    ["hualien", "花蓮縣"],
-    ["taitung", "臺東縣"],
-    ["penghu", "澎湖縣"],
-    ["kinmen", "金門縣"],
+    ["new taipei", "New Taipei City"],
+    ["taipei", "Taipei City"],
+    ["kaohsiung", "Kaohsiung City"],
+    ["taichung", "Taichung City"],
+    ["tainan", "Tainan City"],
+    ["taoyuan", "Taoyuan City"],
+    ["hsinchu", "Hsinchu City"],
+    ["keelung", "Keelung City"],
+    ["chiayi", "Chiayi City"],
+    ["hualien", "Hualien County"],
+    ["taitung", "Taitung County"],
+    ["penghu", "Penghu County"],
+    ["kinmen", "Kinmen County"],
   ];
   for (const [needle, city] of map) {
     if (query.includes(needle)) return city;
   }
-  return state.schools.find((school) => {
+  const match = state.schools.find((school) => {
     return query.includes(normalizeSearch(school.city_or_county)) ||
       query.includes(normalizeSearch(school.city_or_county_en));
-  })?.city_or_county || "";
+  });
+  return match ? cityFilterValue(match) : "";
 }
 
 function detectRegion(query) {
